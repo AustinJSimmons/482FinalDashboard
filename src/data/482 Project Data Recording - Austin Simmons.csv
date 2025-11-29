@@ -1,0 +1,89 @@
+Date,Time of Day,Focus,Mood,Weather,Activity,Heart Rate,Time Since Meal
+2025-10-13,Morning,,,,,,
+2025-10-13,Afternoon,,,,,,
+2025-10-13,Evening,,,,,,
+2025-10-13,Night,,,,,,
+2025-10-14,Morning,3,Good,Sunny,Leisure,68,600
+2025-10-14,Afternoon,7,Neutral,Sunny,Leisure,82,30
+2025-10-14,Evening,,,,,,
+2025-10-14,Night,,,,,,
+2025-10-15,Morning,4,Bad,Sunny,Leisure,63,600
+2025-10-15,Afternoon,5,Neutral,Sunny,Studying,100,120
+2025-10-15,Evening,7,Neutral,Sunny,"Studying, Exercise/Training",104,420
+2025-10-15,Night,2,Good,Sunny,Leisure,88,80
+2025-10-16,Morning,4,Good,Sunny,Studying,64,680
+2025-10-16,Afternoon,5,Very Good,Sunny,Leisure,91,30
+2025-10-16,Evening,4,Neutral,Sunny,Studying,98,5
+2025-10-16,Night,7,Good,Sunny,Studying,89,240
+2025-10-17,Morning,6,Neutral,Sunny,Leisure,91,120
+2025-10-17,Afternoon,3,Good,Rain,Exercise/Training,85,600
+2025-10-17,Evening,7,Very Good,Rain,Studying,82,45
+2025-10-17,Night,6,Good,Partially Cloudy,Leisure,88,400
+2025-10-18,Morning,3,Neutral,Partially Cloudy,Leisure,92,0
+2025-10-18,Afternoon,,,,,,
+2025-10-18,Evening,,,,,,
+2025-10-18,Night,,,,,,
+2025-10-19,Morning,1,Bad,Partially Cloudy,Leisure,80,600
+2025-10-19,Afternoon,4,Neutral,Partially Cloudy,Studying,95,35
+2025-10-19,Evening,7,Neutral,Rain,Studying,86,120
+2025-10-19,Night,4,Good,Rain,Studying,82,90
+2025-10-20,Morning,5,Good,Sunny,"Studying, Leisure ",65,15
+2025-10-20,Afternoon,7,Neutral,Sunny,"Socializing, Studying, Leisure, Commuting",87,240
+2025-10-20,Evening,7,Very Good,Clear,"Studying, Exercise/Training",90,400
+2025-10-20,Night,9,Very Good,Clear,Leisure,83,45
+2025-10-21,Morning,2,Neutral,Partially Cloudy,"Studying, Cooking/Eating",65,15
+2025-10-21,Afternoon,8,Good,Sunny,"Studying, Hobbies",94,300
+2025-10-21,Evening,3,Bad,Sunny,"Studying, Hobbies, Leisure",85,600
+2025-10-21,Night,7,Neutral,Clear,"Studying, Socializing, Leisure",74,60
+2025-10-22,Morning,3,Good,Sunny,"Studying, Leisure, Commuting",89,600
+2025-10-22,Afternoon,6,Good,Sunny,Studying,83,90
+2025-10-22,Evening,8,Very Good,Sunny,"Studying, Leisure, Hobbies, Exercise/Training",99,240
+2025-10-22,Night,4,Neutral,Clear,"Studying, Leisure",81,15
+2025-10-23,Morning,8,Good,Sunny,"Leisure, Studying, Commuting",83,5
+2025-10-23,Afternoon,6,Neutral,Sunny,"Studying, Commuting, Leisure",94,30
+2025-10-23,Evening,4,Bad,Sunny,"Studying, Leisure, Cooking/Eating",82,20
+2025-10-23,Night,6,Good,Clear,"Socializing, Exercise/Training, Studying, Hobbies",76,240
+2025-10-24,Morning,4,Neutral,Cloudy,Leisure,65,600
+2025-10-24,Afternoon,9,Good,Cloudy,"Studying, Leisure",94,0
+2025-10-24,Evening,6,Good,Cloudy,"Leisure, Hobbies, Commuting",91,240
+2025-10-24,Night,8,Good,Clear,"Socializing, Cooking/Eating, Leisure",82,15
+2025-10-25,Morning,4,Neutral,Partially Cloudy,"Studying, Exercise/Training, Leisure",78,30
+2025-10-25,Afternoon,6,Good,Partially Cloudy,"Hobbies, Leisure",85,45
+2025-10-25,Evening,7,Very Good,Cloudy,"Socializing, Leisure, Cooking/Eating",79,180
+2025-10-25,Night,3,Bad,Cloudy,"Socializing, Cooking/Eating",90,45
+2025-10-26,Morning,3,Neutral,Cloudy,Socializing,74,600
+2025-10-26,Afternoon,5,Neutral,Cloudy,"Studying, Leisure, Hobbies",84,600
+2025-10-26,Evening,7,Good,Cloudy,"Studying, Exercise/Training, Hobbies, Leisure",92,600
+2025-10-26,Night,,,,,,
+2025-10-27,Morning,6,Neutral,Sunny,"Studying, Leisure ",65,0
+2025-10-27,Afternoon,,,,,,
+2025-10-27,Evening,7,Good,Clear,"Studying, Leisure, Socializing, Hobbies",89,0
+2025-10-27,Night,8,Very Good,Clear,"Studying, Leisure, Hobbies",81,60
+2025-10-28,Morning,8,Good,Cloudy,Hobbies,82,15
+2025-10-28,Afternoon,6,Good,Cloudy,"Studying, Cooking/Eating, Exercise/Training",91,0
+2025-10-28,Evening,5,Neutral,Cloudy,"Studying, Cooking/Eating, Hobbies",86,45
+2025-10-28,Night,8,Good,Cloudy,Studying,78,180
+2025-10-29,Morning,9,Very Good,Sunny,"Hobbies, Studying",83,15
+2025-10-29,Afternoon,8,Very Good,Sunny,Hobbies,95,60
+2025-10-29,Evening,10,Very Good,Clear,Hobbies,83,120
+2025-10-29,Night,10,Good,Clear,Hobbies,82,25
+2025-10-30,Morning,3,Bad,Cloudy,"Leisure, Studying, Hobbies",76,0
+2025-10-30,Afternoon,4,Neutral,Cloudy,"Exercise/Training, Studying",98,0
+2025-10-30,Evening,,,,,,
+2025-10-30,Night,,,,,,
+2025-10-31,Morning,,,,,,
+2025-10-31,Afternoon,,,,,,
+2025-10-31,Evening,,,,,,
+2025-10-31,Night,,,,,,
+2025-11-01,Morning,,,,,,
+2025-11-01,Afternoon,,,,,,
+2025-11-01,Evening,,,,,,
+2025-11-01,Night,,,,,,
+2025-11-02,Morning,5,Bad,Partially Cloudy,"Socializing, Commuting, Exercise/Training ",81,30
+2025-11-02,Afternoon,3,Neutral,Partially Cloudy,Leisure,87,0
+2025-11-02,Evening,6,Good,Clear,Studying,91,180
+2025-11-02,Night,4,Good,Clear,Leisure,76,0
+2025-11-03,Morning,7,Good,Cloudy,"Hobbies, Leisure, Studying",75,0
+2025-11-03,Afternoon,8,Very Good,Cloudy,"Hobbies, Leisure, Studying",89,15
+2025-11-03,Evening,10,Good,Cloudy,Exercise/Training,86,25
+2025-11-03,Night,5,Neutral,Cloudy,"Studying, Hobbies, Socializing",76,25
