@@ -66,7 +66,7 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
 <!-- HTML -->
 <div class='dashboard'>
     <h1>Interactive Dashboard</h1>
-    <div class='grid grid-cols-4' style='height: 100%; align-content: start;'>
+    <div class='grid grid-cols-4'>
         <div class='grid grid-colspan-3' style='margin: 0;'>
             <div class='grid grid-cols-2' style='margin: 0;'>
                 <div class='card'>
@@ -139,9 +139,5 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
   .dashboard h1 {
     font-size: 75px;
   }
-}
-
-.control-panel {
-
 }
 </style>
