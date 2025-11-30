@@ -4,12 +4,15 @@ toc: false
 ---
 
 ```js
-// Load data
-const data = await FileAttachment("data/FinalCode_cleaned.csv").csv({ typed: true });
-```
-## Controls
+const raw = await FileAttachment("data/FinalCode_cleaned.csv").csv({ typed: true });
 
-```js
+// Convert time_since_meal into HOURS (optional)
+const data = raw.map(d => ({
+  ...d,
+  time_since_meal_hours: d.time_since_meal / 60
+}));
+
+// Inputs
 const metric = view(
   Inputs.radio(["Mood", "Focus"], {
     label: "Compare Time Since Meal with:",
@@ -31,77 +34,87 @@ const person = view(
   })
 );
 
-
 ```
 
 ## Visualization — Mood vs Focus
 
 ```js
-const metricColumn = metric === "Mood" ? "mood" : "focus";
+// Filter dataset if a single participant is selected
+const filtered = person === "All Participants"
+  ? data
+  : data.filter(d => d.name === person);
+```  
+```js  
+const xColumn = metric === "Mood" ? "mood" : "focus";
 
-const filtered =
-  person === "All Participants"
-    ? data
-    : data.filter(d => d.name === person);
+// Specify ordering for Mood axis
+const moodOrder = ["Very Bad", "Bad", "Neutral", "Good", "Very Good"];
+```
+```js            
 
-if (filtered.length === 0) {
-  html`<p style="color:red; font-size:18px;">No data available for ${person}</p>`;
-} else {
-  Plot.plot({
-    title: `Time Since Meal vs ${metric} — ${person}`,
-    subtitle: "Relationship between hunger and mood/focus",
-    height: 520,
-    width: 900,
-    grid: true,
+Plot.plot({
+  title: `Time Since Meal vs ${metric} — ${person}`,
+  subtitle: "Relationship between hunger and mood/focus (faceted by time of day)",
+  height: 700,
+  width: 1000,
+  grid: true,
+  
+  facet: {
+    data: filtered,
+    x: "time_of_day",   // 👈 Facet by time of day
+    label: "Time of Day"
+  },
 
-    x: {
-      label: metric,
-      domain: metric === "Mood"
-        ? ["Very_Bad", "Bad", "Neutral", "Good", "Very_Good"]
-        : undefined
-    },
+  x: {
+    label: metric,
+    padding: 0.4,
+    domain: metric === "Mood" 
+      ? ["Very Bad", "Bad", "Neutral", "Good", "Very Good"]
+      : undefined
+  },
 
-    y: {
-      label: "Time Since Meal (minutes)",
-      nice: true
-    },
+  y: {
+    label: "Time Since Meal (hours)",
+    nice: true
+  },
 
-    color: {
-      legend: true,
-      label: "Participants"
-    },
+  color: {
+    legend: true
+  },
 
-    marks: [
-      // Trend line
-      Plot.linearRegressionY(filtered, {
-        x: metricColumn,
-        y: "time_since_meal",
-        stroke: "orange",
-        strokeWidth: 3,
-        opacity: 0.8
-      }),
+  marks: [
+    // Jittered scatter points
+    Plot.dot(filtered, {
+      facet: "include",
+      x: metric === "Mood" ? "mood" : "focus",
+      y: "time_since_meal_hours",
+      fill: colorByPerson ? "name" : "steelblue",
+      r: 5,
+      opacity: 0.8,
+      tip: true,
+      dx: () => (Math.random() - 0.5) * 20
+    }),
 
-      // Box shading
-      Plot.boxY(filtered, {
-        x: metricColumn,
-        y: "time_since_meal",
-        fillOpacity: 0.15,
-        stroke: "gray"
-      }),
+    // Mean time-since-meal line for each facet
+    Plot.ruleY(
+      filtered,
+      Plot.groupX(
+        { y: "mean" },
+        {
+          facet: "include",
+          x: metric === "Mood" ? "mood" : "focus",
+          y: "time_since_meal_hours",
+          stroke: "red",
+          strokeWidth: 2,
+          strokeOpacity: 0.7
+        }
+      )
+    )
+  ]
+})
 
-      // Scatter points
-      Plot.dot(filtered, {
-        x: metricColumn,
-        y: "time_since_meal",
-        fill: colorByPerson ? "name" : "black",
-        r: 6,
-        opacity: 0.8,
-        tip: true,
-        mixBlendMode: "multiply"
-      })
-    ]
-  })
-}
+
+
 
 ```
 
