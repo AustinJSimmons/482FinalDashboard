@@ -24,5 +24,8 @@ final_df = combined_df[['Name', 'Date', 'Time of Day', 'Focus', 'Mood', 'Heart R
 
 final_df = final_df.dropna(subset=['Focus', 'Mood', 'Heart Rate'], how='all')
 
+final_df['Focus'] = final_df['Focus'].round().astype('Int64')
+final_df['Heart Rate'] = final_df['Heart Rate'].round().astype('Int64')
+
 final_df.to_csv('hr_focus_mood.csv', index=False)
 
