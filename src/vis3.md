@@ -1,17 +1,13 @@
 ---
-theme: dashboard
-title:  Visualization 
+title: Visualization
 toc: false
 ---
 
 ```js
-import { FileAttachment } from "@observablehq/stdlib";
-import * as Plot from "@observablehq/plot";
-
-// Load your cleaned merged dataset
-const data = FileAttachment("data/FinalCode.csv").csv({ typed: true });
+// Load data
+const data = await FileAttachment("data/FinalCode_cleaned.csv").csv({ typed: true });
 ```
-
+## Controls
 
 ```js
 const metric = view(
@@ -27,61 +23,85 @@ const colorByPerson = view(
     value: true
   })
 );
+
+const person = view(
+  Inputs.select(["All Participants", ...new Set(data.map(d => d.name))], {
+    label: "Select Participant",
+    value: "All Participants"
+  })
+);
+
+
 ```
 
 ## Visualization — Mood vs Focus
 
 ```js
-Plot.plot({
-  title: `Time Since Meal vs. ${metric}`,
-  subtitle: "Distribution of time-since-meal across different states",
-  height: 520,
-  marginLeft: 60,
-  grid: true,
+const metricColumn = metric === "Mood" ? "mood" : "focus";
 
-  y: {
-    label: "Time Since Meal (hours)",
-    domain: [0, d3.max(data, d => d.time_since_meal)]
-  },
+const filtered =
+  person === "All Participants"
+    ? data
+    : data.filter(d => d.name === person);
 
-  x: {
-    label: metric,
-    // If metric = Mood, order the categories nicely
-    ...(metric === "Mood"
-      ? {
-          domain: ["Very Bad", "Bad", "Neutral", "Good", "Very Good"]
-        }
-      : {})
-  },
+if (filtered.length === 0) {
+  html`<p style="color:red; font-size:18px;">No data available for ${person}</p>`;
+} else {
+  Plot.plot({
+    title: `Time Since Meal vs ${metric} — ${person}`,
+    subtitle: "Relationship between hunger and mood/focus",
+    height: 520,
+    width: 900,
+    grid: true,
 
-  color: {
-    legend: true
-  },
+    x: {
+      label: metric,
+      domain: metric === "Mood"
+        ? ["Very_Bad", "Bad", "Neutral", "Good", "Very_Good"]
+        : undefined
+    },
 
-  marks: [
-    // Mean time since meal line
-    Plot.ruleY(
-      data,
-      Plot.groupZ({ y: "mean" }, { y: "time_since_meal", stroke: "red", strokeOpacity: 0.5 })
-    ),
+    y: {
+      label: "Time Since Meal (minutes)",
+      nice: true
+    },
 
-    // Dots
-    Plot.dot(data, {
-      x: metric,
-      y: "time_since_meal",
-      fill: colorByPerson ? "name" : "steelblue",
-      tip: true,
-      mixBlendMode: "multiply",
-      r: 5
-    }),
+    color: {
+      legend: true,
+      label: "Participants"
+    },
 
-    // Boxplot for distribution clarity
-    Plot.boxY(data, {
-      x: metric,
-      y: "time_since_meal",
-      fillOpacity: 0.2,
-      strokeOpacity: 0.5
-    })
-  ]
-})
+    marks: [
+      // Trend line
+      Plot.linearRegressionY(filtered, {
+        x: metricColumn,
+        y: "time_since_meal",
+        stroke: "orange",
+        strokeWidth: 3,
+        opacity: 0.8
+      }),
+
+      // Box shading
+      Plot.boxY(filtered, {
+        x: metricColumn,
+        y: "time_since_meal",
+        fillOpacity: 0.15,
+        stroke: "gray"
+      }),
+
+      // Scatter points
+      Plot.dot(filtered, {
+        x: metricColumn,
+        y: "time_since_meal",
+        fill: colorByPerson ? "name" : "black",
+        r: 6,
+        opacity: 0.8,
+        tip: true,
+        mixBlendMode: "multiply"
+      })
+    ]
+  })
+}
+
 ```
+

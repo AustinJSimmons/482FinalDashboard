@@ -1,0 +1,394 @@
+name,date,time_of_day,focus,mood,time_since_meal
+Armughan,2025-10-14,Morning,5.0,Very Bad,720.0
+Armughan,2025-10-14,Afternoon,7.0,Bad,15.0
+Armughan,2025-10-14,Evening,8.0,Neutral,240.0
+Armughan,2025-10-14,Night,4.0,Good,180.0
+Armughan,2025-10-16,Morning,6.0,Good,540.0
+Armughan,2025-10-16,Afternoon,3.0,Neutral,45.0
+Armughan,2025-10-16,Evening,7.0,Neutral,10.0
+Armughan,2025-10-16,Night,3.0,Bad,120.0
+Armughan,2025-10-17,Morning,4.0,Bad,660.0
+Armughan,2025-10-17,Afternoon,8.0,Neutral,180.0
+Armughan,2025-10-17,Evening,4.0,Very Good,300.0
+Armughan,2025-10-17,Night,3.0,Good,15.0
+Armughan,2025-10-18,Morning,5.0,Neutral,720.0
+Armughan,2025-10-18,Afternoon,7.0,Good,30.0
+Armughan,2025-10-18,Evening,8.0,Good,0.0
+Armughan,2025-10-18,Night,8.0,Neutral,245.0
+Armughan,2025-10-19,Morning,5.0,Very Good,1080.0
+Armughan,2025-10-19,Afternoon,8.0,Good,75.0
+Armughan,2025-10-19,Evening,9.0,Neutral,310.0
+Armughan,2025-10-19,Night,9.0,Good,65.0
+Armughan,2025-10-20,Morning,7.0,Bad,420.0
+Armughan,2025-10-20,Afternoon,8.0,Neutral,5.0
+Armughan,2025-10-20,Evening,4.0,Neutral,350.0
+Armughan,2025-10-20,Night,3.0,Neutral,120.0
+Armughan,2025-10-21,Morning,6.0,Neutral,940.0
+Armughan,2025-10-21,Afternoon,5.0,Neutral,120.0
+Armughan,2025-10-21,Evening,7.0,Neutral,360.0
+Armughan,2025-10-21,Night,6.0,Bad,30.0
+Armughan,2025-10-22,Morning,4.0,Neutral,720.0
+Armughan,2025-10-22,Afternoon,7.0,Neutral,180.0
+Armughan,2025-10-22,Evening,3.0,Neutral,300.0
+Armughan,2025-10-22,Night,8.0,Bad,480.0
+Armughan,2025-10-23,Morning,4.0,Neutral,900.0
+Armughan,2025-10-23,Afternoon,8.0,Bad,180.0
+Armughan,2025-10-23,Evening,9.0,Very Bad,420.0
+Armughan,2025-10-23,Night,10.0,Very Bad,45.0
+Armughan,2025-10-25,Morning,6.0,Very Good,2400.0
+Armughan,2025-10-25,Afternoon,8.0,Very Good,120.0
+Armughan,2025-10-25,Evening,3.0,Good,360.0
+Armughan,2025-10-26,Afternoon,8.0,Bad,30.0
+Armughan,2025-10-26,Evening,4.0,Bad,240.0
+Armughan,2025-10-26,Night,7.0,Very Bad,45.0
+Armughan,2025-10-27,Morning,4.0,Bad,1020.0
+Armughan,2025-10-27,Afternoon,5.0,Neutral,180.0
+Armughan,2025-10-28,Night,1.0,Neutral,240.0
+Armughan,2025-10-29,Morning,4.0,Neutral,960.0
+Armughan,2025-10-29,Afternoon,5.0,Neutral,120.0
+Armughan,2025-10-29,Evening,8.0,Neutral,300.0
+Armughan,2025-10-29,Night,4.0,Neutral,60.0
+Armughan,2025-10-30,Morning,5.0,Neutral,720.0
+Armughan,2025-10-30,Afternoon,7.0,Neutral,45.0
+Armughan,2025-10-30,Evening,7.0,Good,120.0
+Armughan,2025-10-30,Night,3.0,Good,60.0
+Armughan,2025-10-31,Morning,4.0,Neutral,960.0
+Armughan,2025-10-31,Afternoon,6.0,Neutral,180.0
+Armughan,2025-10-31,Evening,8.0,Good,300.0
+Armughan,2025-10-31,Night,8.0,Very Good,30.0
+Armughan,2025-11-01,Morning,5.0,Neutral,840.0
+Armughan,2025-11-01,Afternoon,7.0,Good,120.0
+Armughan,2025-11-01,Evening,8.0,Good,360.0
+Armughan,2025-11-01,Night,4.0,Bad,45.0
+Armughan,2025-11-02,Morning,3.0,Neutral,480.0
+Armughan,2025-11-02,Afternoon,4.0,Neutral,60.0
+Armughan,2025-11-02,Evening,6.0,Bad,0.0
+Armughan,2025-11-02,Night,8.0,Very Bad,120.0
+Armughan,2025-11-03,Morning,5.0,Neutral,540.0
+Armughan,2025-11-03,Afternoon,8.0,Good,15.0
+Armughan,2025-11-03,Evening,8.0,Good,300.0
+Armughan,2025-11-03,Night,5.0,Very Good,45.0
+Austin Simmons,2025-10-14,Morning,3.0,Good,600.0
+Austin Simmons,2025-10-14,Afternoon,7.0,Neutral,30.0
+Austin Simmons,2025-10-15,Morning,4.0,Bad,600.0
+Austin Simmons,2025-10-15,Afternoon,5.0,Neutral,120.0
+Austin Simmons,2025-10-15,Evening,7.0,Neutral,420.0
+Austin Simmons,2025-10-15,Night,2.0,Good,80.0
+Austin Simmons,2025-10-16,Morning,4.0,Good,680.0
+Austin Simmons,2025-10-16,Afternoon,5.0,Very Good,30.0
+Austin Simmons,2025-10-16,Evening,4.0,Neutral,5.0
+Austin Simmons,2025-10-16,Night,7.0,Good,240.0
+Austin Simmons,2025-10-17,Morning,6.0,Neutral,120.0
+Austin Simmons,2025-10-17,Afternoon,3.0,Good,600.0
+Austin Simmons,2025-10-17,Evening,7.0,Very Good,45.0
+Austin Simmons,2025-10-17,Night,6.0,Good,400.0
+Austin Simmons,2025-10-18,Morning,3.0,Neutral,0.0
+Austin Simmons,2025-10-19,Morning,1.0,Bad,600.0
+Austin Simmons,2025-10-19,Afternoon,4.0,Neutral,35.0
+Austin Simmons,2025-10-19,Evening,7.0,Neutral,120.0
+Austin Simmons,2025-10-19,Night,4.0,Good,90.0
+Austin Simmons,2025-10-20,Morning,5.0,Good,15.0
+Austin Simmons,2025-10-20,Afternoon,7.0,Neutral,240.0
+Austin Simmons,2025-10-20,Evening,7.0,Very Good,400.0
+Austin Simmons,2025-10-20,Night,9.0,Very Good,45.0
+Austin Simmons,2025-10-21,Morning,2.0,Neutral,15.0
+Austin Simmons,2025-10-21,Afternoon,8.0,Good,300.0
+Austin Simmons,2025-10-21,Evening,3.0,Bad,600.0
+Austin Simmons,2025-10-21,Night,7.0,Neutral,60.0
+Austin Simmons,2025-10-22,Morning,3.0,Good,600.0
+Austin Simmons,2025-10-22,Afternoon,6.0,Good,90.0
+Austin Simmons,2025-10-22,Evening,8.0,Very Good,240.0
+Austin Simmons,2025-10-22,Night,4.0,Neutral,15.0
+Austin Simmons,2025-10-23,Morning,8.0,Good,5.0
+Austin Simmons,2025-10-23,Afternoon,6.0,Neutral,30.0
+Austin Simmons,2025-10-23,Evening,4.0,Bad,20.0
+Austin Simmons,2025-10-23,Night,6.0,Good,240.0
+Austin Simmons,2025-10-24,Morning,4.0,Neutral,600.0
+Austin Simmons,2025-10-24,Afternoon,9.0,Good,0.0
+Austin Simmons,2025-10-24,Evening,6.0,Good,240.0
+Austin Simmons,2025-10-24,Night,8.0,Good,15.0
+Austin Simmons,2025-10-25,Morning,4.0,Neutral,30.0
+Austin Simmons,2025-10-25,Afternoon,6.0,Good,45.0
+Austin Simmons,2025-10-25,Evening,7.0,Very Good,180.0
+Austin Simmons,2025-10-25,Night,3.0,Bad,45.0
+Austin Simmons,2025-10-26,Morning,3.0,Neutral,600.0
+Austin Simmons,2025-10-26,Afternoon,5.0,Neutral,600.0
+Austin Simmons,2025-10-26,Evening,7.0,Good,600.0
+Austin Simmons,2025-10-27,Morning,6.0,Neutral,0.0
+Austin Simmons,2025-10-27,Evening,7.0,Good,0.0
+Austin Simmons,2025-10-27,Night,8.0,Very Good,60.0
+Austin Simmons,2025-10-28,Morning,8.0,Good,15.0
+Austin Simmons,2025-10-28,Afternoon,6.0,Good,0.0
+Austin Simmons,2025-10-28,Evening,5.0,Neutral,45.0
+Austin Simmons,2025-10-28,Night,8.0,Good,180.0
+Austin Simmons,2025-10-29,Morning,9.0,Very Good,15.0
+Austin Simmons,2025-10-29,Afternoon,8.0,Very Good,60.0
+Austin Simmons,2025-10-29,Evening,10.0,Very Good,120.0
+Austin Simmons,2025-10-29,Night,10.0,Good,25.0
+Austin Simmons,2025-10-30,Morning,3.0,Bad,0.0
+Austin Simmons,2025-10-30,Afternoon,4.0,Neutral,0.0
+Austin Simmons,2025-11-02,Morning,5.0,Bad,30.0
+Austin Simmons,2025-11-02,Afternoon,3.0,Neutral,0.0
+Austin Simmons,2025-11-02,Evening,6.0,Good,180.0
+Austin Simmons,2025-11-02,Night,4.0,Good,0.0
+Austin Simmons,2025-11-03,Morning,7.0,Good,0.0
+Austin Simmons,2025-11-03,Afternoon,8.0,Very Good,15.0
+Austin Simmons,2025-11-03,Evening,10.0,Good,25.0
+Austin Simmons,2025-11-03,Night,5.0,Neutral,25.0
+Jack,2025-10-14,Morning,6.0,Good,30.0
+Jack,2025-10-14,Afternoon,5.0,Neutral,210.0
+Jack,2025-10-14,Evening,7.0,Good,120.0
+Jack,2025-10-14,Night,6.0,Good,180.0
+Jack,2025-10-15,Morning,4.0,Good,20.0
+Jack,2025-10-15,Afternoon,7.0,Neutral,240.0
+Jack,2025-10-15,Evening,8.0,Very Good,10.0
+Jack,2025-10-15,Night,6.0,Good,20.0
+Jack,2025-10-16,Morning,4.0,Neutral,15.0
+Jack,2025-10-16,Afternoon,6.0,Bad,180.0
+Jack,2025-10-16,Evening,5.0,Neutral,120.0
+Jack,2025-10-16,Night,4.0,Neutral,210.0
+Jack,2025-10-17,Morning,5.0,Neutral,90.0
+Jack,2025-10-17,Afternoon,6.0,Good,180.0
+Jack,2025-10-17,Evening,7.0,Good,150.0
+Jack,2025-10-17,Night,5.0,Neutral,240.0
+Jack,2025-10-18,Morning,6.0,Good,45.0
+Jack,2025-10-18,Afternoon,7.0,Very Good,150.0
+Jack,2025-10-18,Evening,8.0,Very Good,180.0
+Jack,2025-10-18,Night,6.0,Good,240.0
+Jack,2025-10-19,Morning,5.0,Neutral,60.0
+Jack,2025-10-19,Afternoon,5.0,Neutral,150.0
+Jack,2025-10-19,Evening,6.0,Good,120.0
+Jack,2025-10-19,Night,5.0,Neutral,210.0
+Jack,2025-10-20,Morning,4.0,Neutral,90.0
+Jack,2025-10-20,Afternoon,6.0,Good,180.0
+Jack,2025-10-20,Evening,6.0,Good,150.0
+Jack,2025-10-20,Night,5.0,Neutral,240.0
+Jack,2025-10-21,Morning,5.0,Neutral,40.0
+Jack,2025-10-21,Afternoon,6.0,Good,210.0
+Jack,2025-10-21,Evening,7.0,Good,180.0
+Jack,2025-10-21,Night,5.0,Neutral,240.0
+Jack,2025-10-22,Morning,6.0,Good,20.0
+Jack,2025-10-22,Afternoon,6.0,Good,200.0
+Jack,2025-10-22,Evening,7.0,Very Good,150.0
+Jack,2025-10-22,Night,6.0,Good,240.0
+Jack,2025-10-23,Morning,4.0,Neutral,60.0
+Jack,2025-10-23,Afternoon,5.0,Neutral,180.0
+Jack,2025-10-23,Evening,6.0,Good,150.0
+Jack,2025-10-23,Night,5.0,Neutral,240.0
+Jack,2025-10-24,Morning,5.0,Neutral,30.0
+Jack,2025-10-24,Afternoon,7.0,Good,210.0
+Jack,2025-10-24,Evening,6.0,Good,180.0
+Jack,2025-10-24,Night,4.0,Neutral,240.0
+Jack,2025-10-25,Morning,6.0,Good,90.0
+Jack,2025-10-25,Afternoon,7.0,Very Good,180.0
+Jack,2025-10-25,Evening,8.0,Very Good,150.0
+Jack,2025-10-25,Night,6.0,Good,240.0
+Jack,2025-10-26,Morning,5.0,Neutral,60.0
+Jack,2025-10-26,Afternoon,6.0,Good,150.0
+Jack,2025-10-26,Evening,6.0,Good,150.0
+Jack,2025-10-26,Night,5.0,Neutral,240.0
+Jack,2025-10-27,Morning,4.0,Neutral,60.0
+Jack,2025-10-27,Afternoon,5.0,Neutral,180.0
+Jack,2025-10-27,Evening,6.0,Good,150.0
+Jack,2025-10-27,Night,5.0,Neutral,240.0
+Jack,2025-10-28,Morning,6.0,Good,20.0
+Jack,2025-10-28,Afternoon,6.0,Good,210.0
+Jack,2025-10-28,Evening,7.0,Good,180.0
+Jack,2025-10-28,Night,6.0,Good,240.0
+Jack,2025-10-29,Morning,5.0,Neutral,60.0
+Jack,2025-10-29,Afternoon,6.0,Good,200.0
+Jack,2025-10-29,Evening,6.0,Good,120.0
+Jack,2025-10-29,Night,5.0,Neutral,240.0
+Jack,2025-10-30,Morning,4.0,Neutral,90.0
+Jack,2025-10-30,Afternoon,5.0,Neutral,180.0
+Jack,2025-10-30,Evening,6.0,Good,150.0
+Jack,2025-10-30,Night,4.0,Neutral,240.0
+Jack,2025-10-31,Morning,6.0,Good,30.0
+Jack,2025-10-31,Afternoon,7.0,Very Good,210.0
+Jack,2025-10-31,Evening,8.0,Very Good,180.0
+Jack,2025-10-31,Night,6.0,Good,240.0
+Jack,2025-11-01,Morning,5.0,Neutral,60.0
+Jack,2025-11-01,Afternoon,6.0,Good,180.0
+Jack,2025-11-01,Evening,7.0,Good,180.0
+Jack,2025-11-01,Night,5.0,Neutral,240.0
+Jack,2025-11-02,Morning,5.0,Neutral,90.0
+Jack,2025-11-02,Afternoon,5.0,Neutral,150.0
+Jack,2025-11-02,Evening,6.0,Good,180.0
+Jack,2025-11-02,Night,4.0,Neutral,240.0
+Jack,2025-11-03,Morning,6.0,Good,30.0
+Jack,2025-11-03,Afternoon,6.0,Good,210.0
+Jack,2025-11-03,Evening,7.0,Good,180.0
+Jack,2025-11-03,Night,5.0,Neutral,240.0
+Kirthik,2025-10-13,Morning,7.0,Good,100.0
+Kirthik,2025-10-13,Afternoon,4.0,Good,140.0
+Kirthik,2025-10-13,Evening,7.0,Good,400.0
+Kirthik,2025-10-13,Night,9.0,Very Good,320.0
+Kirthik,2025-10-14,Morning,6.0,Neutral,390.0
+Kirthik,2025-10-14,Afternoon,10.0,Very Good,200.0
+Kirthik,2025-10-14,Evening,4.0,Neutral,300.0
+Kirthik,2025-10-14,Night,10.0,Very Good,100.0
+Kirthik,2025-10-15,Morning,5.0,Neutral,200.0
+Kirthik,2025-10-15,Afternoon,7.0,Good,190.0
+Kirthik,2025-10-15,Evening,5.0,Neutral,92.0
+Kirthik,2025-10-15,Night,6.0,Neutral,20.0
+Kirthik,2025-10-16,Morning,9.0,Bad,29.0
+Kirthik,2025-10-16,Afternoon,5.0,Very Good,87.0
+Kirthik,2025-10-16,Evening,7.0,Good,10.0
+Kirthik,2025-10-16,Night,5.0,Neutral,138.0
+Kirthik,2025-10-17,Morning,8.0,Very Good,82.0
+Kirthik,2025-10-17,Afternoon,6.0,Neutral,100.0
+Kirthik,2025-10-17,Evening,6.0,Very Good,200.0
+Kirthik,2025-10-17,Night,7.0,Bad,19.0
+Kirthik,2025-10-18,Morning,10.0,Very Good,91.0
+Kirthik,2025-10-18,Afternoon,7.0,Good,190.0
+Kirthik,2025-10-18,Evening,6.0,Very Bad,20.0
+Kirthik,2025-10-18,Night,7.0,Neutral,55.0
+Kirthik,2025-10-19,Morning,8.0,Good,120.0
+Kirthik,2025-10-19,Afternoon,6.0,Neutral,45.0
+Kirthik,2025-10-19,Evening,7.0,Good,180.0
+Kirthik,2025-10-19,Night,8.0,Very Good,35.0
+Kirthik,2025-10-20,Morning,4.0,Neutral,160.0
+Kirthik,2025-10-20,Afternoon,2.0,Very Bad,210.0
+Kirthik,2025-10-20,Evening,3.0,Bad,40.0
+Kirthik,2025-10-20,Night,8.0,Good,25.0
+Kirthik,2025-10-21,Morning,7.0,Good,140.0
+Kirthik,2025-10-21,Afternoon,8.0,Very Good,180.0
+Kirthik,2025-10-21,Evening,6.0,Neutral,220.0
+Kirthik,2025-10-21,Night,9.0,Neutral,30.0
+Kirthik,2025-10-22,Morning,1.0,Bad,210.0
+Kirthik,2025-10-22,Afternoon,4.0,Neutral,90.0
+Kirthik,2025-10-22,Evening,6.0,Good,170.0
+Kirthik,2025-10-22,Night,10.0,Very Good,40.0
+Kirthik,2025-10-23,Morning,10.0,Neutral,150.0
+Kirthik,2025-10-23,Afternoon,8.0,Neutral,210.0
+Kirthik,2025-10-23,Evening,5.0,Good,260.0
+Kirthik,2025-10-23,Night,8.0,Neutral,20.0
+Kirthik,2025-10-24,Morning,6.0,Good,110.0
+Kirthik,2025-10-24,Afternoon,7.0,Neutral,240.0
+Kirthik,2025-10-24,Evening,5.0,Neutral,35.0
+Kirthik,2025-10-24,Night,8.0,Good,30.0
+Kirthik,2025-10-25,Morning,9.0,Very Good,25.0
+Kirthik,2025-10-25,Afternoon,6.0,Neutral,180.0
+Kirthik,2025-10-25,Evening,7.0,Good,220.0
+Kirthik,2025-10-25,Night,8.0,Neutral,40.0
+Kirthik,2025-10-26,Morning,5.0,Neutral,210.0
+Kirthik,2025-10-26,Afternoon,6.0,Good,150.0
+Kirthik,2025-10-26,Evening,4.0,Bad,190.0
+Kirthik,2025-10-26,Night,7.0,Neutral,40.0
+Kirthik,2025-10-27,Morning,8.0,Good,180.0
+Kirthik,2025-10-27,Afternoon,7.0,Neutral,240.0
+Kirthik,2025-10-27,Evening,6.0,Neutral,120.0
+Kirthik,2025-10-27,Night,9.0,Good,50.0
+Kirthik,2025-10-28,Morning,6.0,Neutral,160.0
+Kirthik,2025-10-28,Afternoon,5.0,Bad,240.0
+Kirthik,2025-10-28,Evening,7.0,Good,35.0
+Kirthik,2025-10-28,Night,8.0,Neutral,30.0
+Kirthik,2025-10-29,Morning,7.0,Good,210.0
+Kirthik,2025-10-29,Afternoon,8.0,Very Good,160.0
+Kirthik,2025-10-29,Evening,6.0,Neutral,240.0
+Kirthik,2025-10-29,Night,9.0,Good,30.0
+Kirthik,2025-10-30,Morning,5.0,Neutral,200.0
+Kirthik,2025-10-30,Afternoon,7.0,Good,260.0
+Kirthik,2025-10-30,Evening,6.0,Neutral,40.0
+Kirthik,2025-10-30,Night,8.0,Very Good,20.0
+Kirthik,2025-10-31,Morning,9.0,Very Good,20.0
+Kirthik,2025-10-31,Afternoon,6.0,Neutral,190.0
+Kirthik,2025-10-31,Evening,7.0,Good,240.0
+Kirthik,2025-10-31,Night,8.0,Neutral,30.0
+Kirthik,2025-11-01,Morning,7.0,Good,120.0
+Kirthik,2025-11-01,Afternoon,6.0,Neutral,240.0
+Kirthik,2025-11-01,Evening,5.0,Neutral,200.0
+Kirthik,2025-11-01,Night,8.0,Good,20.0
+Kirthik,2025-11-02,Morning,6.0,Neutral,180.0
+Kirthik,2025-11-02,Afternoon,7.0,Good,240.0
+Kirthik,2025-11-02,Evening,6.0,Neutral,200.0
+Kirthik,2025-11-02,Night,9.0,Very Good,25.0
+Kirthik,2025-11-03,Morning,8.0,Good,160.0
+Kirthik,2025-11-03,Afternoon,7.0,Neutral,220.0
+Kirthik,2025-11-03,Evening,6.0,Neutral,200.0
+Kirthik,2025-11-03,Night,9.0,Good,30.0
+Yousri,2025-10-13,Morning,3.0,Neutral,170.0
+Yousri,2025-10-13,Afternoon,5.0,Good,120.0
+Yousri,2025-10-13,Evening,4.0,Good,95.0
+Yousri,2025-10-13,Night,2.0,Neutral,165.0
+Yousri,2025-10-14,Morning,3.0,Bad,600.0
+Yousri,2025-10-14,Afternoon,5.0,Neutral,960.0
+Yousri,2025-10-14,Evening,5.0,Neutral,30.0
+Yousri,2025-10-14,Night,3.0,Neutral,15.0
+Yousri,2025-10-15,Morning,3.0,Bad,540.0
+Yousri,2025-10-15,Afternoon,6.0,Good,960.0
+Yousri,2025-10-15,Evening,4.0,Neutral,95.0
+Yousri,2025-10-15,Night,5.0,Neutral,150.0
+Yousri,2025-10-16,Morning,6.0,Good,90.0
+Yousri,2025-10-16,Afternoon,7.0,Good,160.0
+Yousri,2025-10-16,Evening,8.0,Very Good,105.0
+Yousri,2025-10-16,Night,8.0,Very Good,230.0
+Yousri,2025-10-17,Morning,6.0,Neutral,110.0
+Yousri,2025-10-17,Afternoon,7.0,Good,155.0
+Yousri,2025-10-17,Evening,6.0,Neutral,100.0
+Yousri,2025-10-17,Night,8.0,Good,65.0
+Yousri,2025-10-18,Morning,6.0,Neutral,125.0
+Yousri,2025-10-18,Afternoon,5.0,Neutral,115.0
+Yousri,2025-10-18,Evening,5.0,Good,160.0
+Yousri,2025-10-18,Night,4.0,Good,175.0
+Yousri,2025-10-19,Morning,4.0,Neutral,155.0
+Yousri,2025-10-19,Afternoon,5.0,Very Good,115.0
+Yousri,2025-10-19,Evening,3.0,Very Good,165.0
+Yousri,2025-10-19,Night,6.0,Good,240.0
+Yousri,2025-10-20,Morning,4.0,Neutral,190.0
+Yousri,2025-10-20,Afternoon,5.0,Neutral,115.0
+Yousri,2025-10-20,Evening,6.0,Neutral,200.0
+Yousri,2025-10-20,Night,7.0,Good,190.0
+Yousri,2025-10-21,Morning,5.0,Bad,245.0
+Yousri,2025-10-21,Afternoon,6.0,Neutral,265.0
+Yousri,2025-10-21,Evening,6.0,Good,215.0
+Yousri,2025-10-21,Night,6.0,Neutral,190.0
+Yousri,2025-10-22,Morning,5.0,Neutral,195.0
+Yousri,2025-10-22,Afternoon,6.0,Neutral,160.0
+Yousri,2025-10-22,Evening,8.0,Good,190.0
+Yousri,2025-10-22,Night,5.0,Good,205.0
+Yousri,2025-10-23,Morning,4.0,Neutral,135.0
+Yousri,2025-10-23,Afternoon,4.0,Neutral,255.0
+Yousri,2025-10-23,Evening,7.0,Neutral,230.0
+Yousri,2025-10-23,Night,5.0,Neutral,210.0
+Yousri,2025-10-24,Morning,3.0,Bad,115.0
+Yousri,2025-10-24,Afternoon,5.0,Bad,245.0
+Yousri,2025-10-24,Evening,5.0,Neutral,215.0
+Yousri,2025-10-24,Night,4.0,Neutral,260.0
+Yousri,2025-10-25,Morning,7.0,Neutral,290.0
+Yousri,2025-10-25,Afternoon,7.0,Neutral,285.0
+Yousri,2025-10-25,Evening,8.0,Good,245.0
+Yousri,2025-10-25,Night,7.0,Good,160.0
+Yousri,2025-10-26,Morning,6.0,Neutral,310.0
+Yousri,2025-10-27,Morning,3.0,Neutral,360.0
+Yousri,2025-10-27,Afternoon,5.0,Neutral,270.0
+Yousri,2025-10-27,Evening,7.0,Neutral,260.0
+Yousri,2025-10-27,Night,6.0,Neutral,400.0
+Yousri,2025-10-28,Morning,5.0,Neutral,300.0
+Yousri,2025-10-28,Afternoon,5.0,Neutral,185.0
+Yousri,2025-10-28,Evening,7.0,Good,320.0
+Yousri,2025-10-28,Night,6.0,Good,140.0
+Yousri,2025-10-29,Morning,4.0,Neutral,190.0
+Yousri,2025-10-29,Afternoon,6.0,Neutral,60.0
+Yousri,2025-10-29,Evening,3.0,Neutral,300.0
+Yousri,2025-10-29,Night,5.0,Neutral,260.0
+Yousri,2025-10-30,Morning,2.0,Bad,270.0
+Yousri,2025-10-30,Afternoon,2.0,Bad,265.0
+Yousri,2025-10-30,Evening,3.0,Very Bad,300.0
+Yousri,2025-10-30,Night,1.0,Very Bad,600.0
+Yousri,2025-10-31,Morning,3.0,Neutral,1000.0
+Yousri,2025-10-31,Afternoon,1.0,Very Bad,200.0
+Yousri,2025-10-31,Evening,1.0,Very Bad,400.0
+Yousri,2025-10-31,Night,1.0,Bad,200.0
+Yousri,2025-11-01,Morning,1.0,Bad,500.0
+Yousri,2025-11-01,Afternoon,3.0,Bad,235.0
+Yousri,2025-11-01,Evening,3.0,Good,145.0
+Yousri,2025-11-01,Night,3.0,Bad,325.0
+Yousri,2025-11-02,Morning,2.0,Neutral,125.0
+Yousri,2025-11-02,Afternoon,3.0,Neutral,245.0
+Yousri,2025-11-02,Evening,2.0,Neutral,125.0
+Yousri,2025-11-02,Night,2.0,Bad,235.0
+Yousri,2025-11-03,Morning,5.0,Neutral,270.0
+Yousri,2025-11-03,Afternoon,5.0,Neutral,350.0
+Yousri,2025-11-03,Evening,6.0,Neutral,285.0
+Yousri,2025-11-03,Night,4.0,Neutral,125.0
