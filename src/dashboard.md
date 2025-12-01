@@ -99,42 +99,164 @@ function weatherImpactChart(weatherData, {width}) {
   })
 }
 ```
+```js
+const raw = await FileAttachment("data/FinalCode_cleaned.csv").csv({ typed: true });
+
+// Convert time_since_meal into HOURS (optional)
+const data2 = raw.map(d => ({
+  ...d,
+  time_since_meal_hours: d.time_since_meal / 60
+}));
+
+const personInput = Inputs.select(["All Participants", ...new Set(data2.map(d => d.name))], {
+  label: "Select Participant",
+  value: "All Participants"
+});
+
+const metricInput2 = Inputs.radio(["Mood", "Focus"], {
+    label: "Compare Time Since Meal with:",
+    value: "Mood"
+});
+
+
+const colorInput2 = Inputs.toggle({
+    label: "Color by Person",
+    value: true
+});
+
+const personValue = Generators.input(personInput);
+const metricValue2 = Generators.input(metricInput2);
+const colorValue2 = Generators.input(colorInput2);
+
+```
+
+```js
+const xColumn = metricValue2 === "Mood" ? "mood" : "focus";
+
+```
+
+```js
+const filtered = personValue === "All Participants"
+? data2
+: data2.filter(d => d.name === personValue);
+```
+
+```js
+function mealChart(filtered, {width, metric, colorByPerson, person}) {
+  return Plot.plot({
+    width,
+    title: `How Time Since Meal Influences ${metric} Across the Day — ${person}`,
+    subtitle: "Comparison of hunger effects by time of day, with median (gold) and mean (white) lines for clarity",
+    grid: true,
+    facet: {
+      data: filtered,
+      x: "time_of_day",
+      label: "Time of Day"
+    },
+
+    x: {
+      label: metric,
+      padding: 0.4,
+      domain: metric === "Mood" 
+        ? ["Very Bad", "Bad", "Neutral", "Good", "Very Good"]
+        : undefined
+    },
+
+    y: {
+      label: "Time Since Meal (hours)",
+      nice: true
+    },
+
+    color: { legend: true },
+
+    marks: [
+    // Scatter points
+    Plot.dot(filtered, {
+      facet: "include",
+      x: xColumn,
+      y: "time_since_meal_hours",
+      fill: colorByPerson ? "name" : "steelblue",
+      r: 5,
+      opacity: 0.8,
+      tip: true,
+      dx: () => (Math.random() - 0.5) * 20
+    }),
+    Plot.ruleY(
+      filtered,
+      Plot.groupX(
+        { y: "median" },
+        {
+          facet: "include",
+          x: xColumn,
+          y: "time_since_meal_hours",
+          stroke: "gold",
+          strokeWidth: 3,
+          strokeOpacity: 0.9
+        }
+      )
+    ),
+    Plot.ruleY(
+      filtered,
+      Plot.groupX(
+        { y: "mean" },
+        {
+          facet: "include",
+          x: xColumn,
+          y: "time_since_meal_hours",
+          stroke: "white",
+          strokeWidth: 2.5,
+          strokeOpacity: 0.9
+        }
+      )
+    )
+  ]
+  })
+}
+```
 <!-- HTML -->
 <div class='dashboard'>
     <h1>Interactive Dashboard</h1>
     <div class='grid grid-cols-4'>
         <div class='grid grid-colspan-3' style='margin: 0;'>
-            <div class='grid grid-cols-2' style='margin: 0;'>
+            <div class='grid grid-cols-2' style='margin: 0; grid-auto-rows: 0fr'>
                 <div class='card'>
-                    ${resize((width) => heartRateChart(data, 
-                    {width, metric: metricValue, colorByPerson: colorValue}))}
+                  ${resize((width) => heartRateChart(data, {width, metric: metricValue, colorByPerson: colorValue}))}
                 </div>
                 <div class='card'>
-                    ${resize((width) => weatherImpactChart(weatherData, {width}))}
-                </div>
-                <div class='card'>
+                  ${resize((width) => weatherImpactChart(weatherData, {width}))}
                 </div>
                 <div class='card'>
                 </div>
-                <div class='card grid-colspan-2 control-panel'></div>
+                <div class='card'>
+                </div>
+                <div class='card grid-colspan-2'>
+                  ${resize((width) => mealChart(filtered, {width, metric: metricValue2, colorByPerson: colorValue2, person: personValue}))}
+                </div>
             </div>
         </div>
-        <div class='card grid-colspan-1'>
-            <h2>Control Panel</h2>
-            <div class='card'>
-                <h3>Heart Rate Chart</h3>
-                ${metricInput}
-                ${colorInput}
-            </div>
-            <div class='card'>
-                <h3>Filler</h3>
-            </div>
-            <div class='card'>
-                <h3>Filler</h3>
-            </div>
-            <div class='card'>
-                <h3>Filler</h3>
-            </div>
+        <div class='card control-panel'>
+              <div>
+                <h2>Control Panel</h2>
+                <div class='card'>
+                    <h3>Heart Rate Chart</h3>
+                    ${metricInput}
+                    ${colorInput}
+                </div>
+              </div>
+                <div>
+                <div class='card'>
+                    <h3>Filler</h3>
+                </div>
+                <div class='card'>
+                    <h3>Filler</h3>
+                </div>
+              </div>
+              <div class='card'>
+                  <h3>Filler</h3>
+                  ${metricInput2}
+                  ${colorInput2}
+                  ${personInput}
+              </div>
         </div>
     </div>
 </div>
@@ -173,5 +295,12 @@ function weatherImpactChart(weatherData, {width}) {
   .dashboard h1 {
     font-size: 75px;
   }
+}
+
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 </style>
