@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: vis
+title: Mood vs Focus Visualization
 toc: false
 ---
 

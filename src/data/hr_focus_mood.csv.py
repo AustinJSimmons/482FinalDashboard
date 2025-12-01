@@ -5,7 +5,8 @@ files = [
     "482 Project Data Recording - Armughan.csv",
     "482 Project Data Recording - Austin.csv",
     "482 Project Data Recording - Jack.csv",
-    "482 Project Data Recording - Kirthik.csv"
+    "482 Project Data Recording - Kirthik.csv",
+    "482 Project Data Recording - Yousri.csv"
 ]
 
 all_data = []
