@@ -1,0 +1,395 @@
+﻿Name,Date,Time of Day,Focus,Mood,Weather,Activity,Heart Rate,Time Since Meal
+Armughan,2025-10-14,Morning,5,Very Bad,Sunny,Commuting,78,720
+Armughan,2025-10-14,Afternoon,7,Bad,Sunny,Studying,68,15
+Armughan,2025-10-14,Evening,8,Neutral,Partially Cloudy,Studying,72,240
+Armughan,2025-10-14,Night,4,Good,Clear,Leisure,76,180
+Armughan,2025-10-16,Morning,6,Good,Sunny,Leisure,80,540
+Armughan,2025-10-16,Afternoon,3,Neutral,Sunny,"Leisure, Hobbies, Exercise/Training",104,45
+Armughan,2025-10-16,Evening,7,Neutral,Partially Cloudy,Studying,88,10
+Armughan,2025-10-16,Night,3,Bad,Cloudy,Studying,84,120
+Armughan,2025-10-17,Morning,4,Bad,Partially Cloudy,Commuting,96,660
+Armughan,2025-10-17,Afternoon,8,Neutral,Rain,"Studying, Commuting",92,180
+Armughan,2025-10-17,Evening,4,Very Good,Partially Cloudy,Studying,88,300
+Armughan,2025-10-17,Night,3,Good,Clear,Leisure,92,15
+Armughan,2025-10-18,Morning,5,Neutral,Sunny,Leisure,84,720
+Armughan,2025-10-18,Afternoon,7,Good,Partially Cloudy,Studying,80,30
+Armughan,2025-10-18,Evening,8,Good,Cloudy,"Leisure, Cooking/Eating",76,0
+Armughan,2025-10-18,Night,8,Neutral,Cloudy,Leisure,80,245
+Armughan,2025-10-19,Morning,5,Very Good,Partially Cloudy,Leisure,72,1080
+Armughan,2025-10-19,Afternoon,8,Good,Partially Cloudy,Studying,76,75
+Armughan,2025-10-19,Evening,9,Neutral,Cloudy,Studying,80,310
+Armughan,2025-10-19,Night,9,Good,Cloudy,Leisure,88,65
+Armughan,2025-10-20,Morning,7,Bad,Sunny,Studying,84,420
+Armughan,2025-10-20,Afternoon,8,Neutral,Sunny,Studying,88,5
+Armughan,2025-10-20,Evening,4,Neutral,Cloudy,Leisure,80,350
+Armughan,2025-10-20,Night,3,Neutral,Partially Cloudy,Leisure,88,120
+Armughan,2025-10-21,Morning,6,Neutral,Sunny,Studying,80,940
+Armughan,2025-10-21,Afternoon,5,Neutral,Sunny,Commuting,92,120
+Armughan,2025-10-21,Evening,7,Neutral,Partially Cloudy,"Studying, Commuting",68,360
+Armughan,2025-10-21,Night,6,Bad,Clear,"Leisure, Hobbies",80,30
+Armughan,2025-10-22,Morning,4,Neutral,Sunny,Leisure,88,720
+Armughan,2025-10-22,Afternoon,7,Neutral,Sunny,Studying,92,180
+Armughan,2025-10-22,Evening,3,Neutral,Sunny,Studying,80,300
+Armughan,2025-10-22,Night,8,Bad,Clear,Studying,72,480
+Armughan,2025-10-23,Morning,4,Neutral,Sunny,Studying,80,900
+Armughan,2025-10-23,Afternoon,8,Bad,Sunny,Studying,84,180
+Armughan,2025-10-23,Evening,9,Very Bad,Partially Cloudy,Studying,76,420
+Armughan,2025-10-23,Night,10,Very Bad,Cloudy,Studying,76,45
+Armughan,2025-10-25,Morning,6,Very Good,Sunny,Leisure,72,2400
+Armughan,2025-10-25,Afternoon,8,Very Good,Sunny,Leisure,80,120
+Armughan,2025-10-25,Evening,3,Good,Cloudy,Leisure,72,360
+Armughan,2025-10-25,Night,,Neutral,Cloudy,Studying,,120
+Armughan,2025-10-26,Afternoon,8,Bad,Cloudy,Studying,92,30
+Armughan,2025-10-26,Evening,4,Bad,Partially Cloudy,"Studying, Leisure",64,240
+Armughan,2025-10-26,Night,7,Very Bad,Cloudy,Leisure,64,45
+Armughan,2025-10-27,Morning,4,Bad,Partially Cloudy,Leisure,80,1020
+Armughan,2025-10-27,Afternoon,5,Neutral,Partially Cloudy,Studying,76,180
+Armughan,2025-10-28,Night,1,Neutral,Cloudy,Leisure,72,240
+Armughan,2025-10-29,Morning,4,Neutral,Sunny,Leisure,88,960
+Armughan,2025-10-29,Afternoon,5,Neutral,Sunny,Studying,80,120
+Armughan,2025-10-29,Evening,8,Neutral,Sunny,"Studying, Leisure",76,300
+Armughan,2025-10-29,Night,4,Neutral,Partially Cloudy,Studying,76,60
+Armughan,2025-10-30,Morning,5,Neutral,Partially Cloudy,Commuting,88,720
+Armughan,2025-10-30,Afternoon,7,Neutral,Sunny,Studying,84,45
+Armughan,2025-10-30,Evening,7,Good,Partially Cloudy,"Commuting, Studying",76,120
+Armughan,2025-10-30,Night,3,Good,Clear,Leisure,72,60
+Armughan,2025-10-31,Morning,4,Neutral,Sunny,Commuting,84,960
+Armughan,2025-10-31,Afternoon,6,Neutral,Partially Cloudy,Studying,88,180
+Armughan,2025-10-31,Evening,8,Good,Cloudy,"Commuting, Studying",92,300
+Armughan,2025-10-31,Night,8,Very Good,Cloudy,Leisure,72,30
+Armughan,2025-11-01,Morning,5,Neutral,Cloudy,Leisure,80,840
+Armughan,2025-11-01,Afternoon,7,Good,Rain,Leisure,82,120
+Armughan,2025-11-01,Evening,8,Good,Partially Cloudy,"Studying, Leisure",68,360
+Armughan,2025-11-01,Night,4,Bad,Snow,Studying,68,45
+Armughan,2025-11-02,Morning,3,Neutral,Clear,Leisure,76,480
+Armughan,2025-11-02,Afternoon,4,Neutral,Sunny,"Studying, Hobbies",80,60
+Armughan,2025-11-02,Evening,6,Bad,Sunny,Leisure,88,0
+Armughan,2025-11-02,Night,8,Very Bad,Partially Cloudy,Studying,76,120
+Armughan,2025-11-03,Morning,5,Neutral,Cloudy,Leisure,88,540
+Armughan,2025-11-03,Afternoon,8,Good,Cloudy,Studying,76,15
+Armughan,2025-11-03,Evening,8,Good,Cloudy,Studying,64,300
+Armughan,2025-11-03,Night,5,Very Good,Cloudy,Studying,72,45
+Austin,2025-10-14,Morning,3,Good,Sunny,Leisure,68,600
+Austin,2025-10-14,Afternoon,7,Neutral,Sunny,Leisure,82,30
+Austin,2025-10-15,Morning,4,Bad,Sunny,Leisure,63,600
+Austin,2025-10-15,Afternoon,5,Neutral,Sunny,Studying,100,120
+Austin,2025-10-15,Evening,7,Neutral,Sunny,"Studying, Exercise/Training",104,420
+Austin,2025-10-15,Night,2,Good,Sunny,Leisure,88,80
+Austin,2025-10-16,Morning,4,Good,Sunny,Studying,64,680
+Austin,2025-10-16,Afternoon,5,Very Good,Sunny,Leisure,91,30
+Austin,2025-10-16,Evening,4,Neutral,Sunny,Studying,98,5
+Austin,2025-10-16,Night,7,Good,Sunny,Studying,89,240
+Austin,2025-10-17,Morning,6,Neutral,Sunny,Leisure,91,120
+Austin,2025-10-17,Afternoon,3,Good,Rain,Exercise/Training,85,600
+Austin,2025-10-17,Evening,7,Very Good,Rain,Studying,82,45
+Austin,2025-10-17,Night,6,Good,Partially Cloudy,Leisure,88,400
+Austin,2025-10-18,Morning,3,Neutral,Partially Cloudy,Leisure,92,0
+Austin,2025-10-19,Morning,1,Bad,Partially Cloudy,Leisure,80,600
+Austin,2025-10-19,Afternoon,4,Neutral,Partially Cloudy,Studying,95,35
+Austin,2025-10-19,Evening,7,Neutral,Rain,Studying,86,120
+Austin,2025-10-19,Night,4,Good,Rain,Studying,82,90
+Austin,2025-10-20,Morning,5,Good,Sunny,"Studying, Leisure ",65,15
+Austin,2025-10-20,Afternoon,7,Neutral,Sunny,"Socializing, Studying, Leisure, Commuting",87,240
+Austin,2025-10-20,Evening,7,Very Good,Clear,"Studying, Exercise/Training",90,400
+Austin,2025-10-20,Night,9,Very Good,Clear,Leisure,83,45
+Austin,2025-10-21,Morning,2,Neutral,Partially Cloudy,"Studying, Cooking/Eating",65,15
+Austin,2025-10-21,Afternoon,8,Good,Sunny,"Studying, Hobbies",94,300
+Austin,2025-10-21,Evening,3,Bad,Sunny,"Studying, Hobbies, Leisure",85,600
+Austin,2025-10-21,Night,7,Neutral,Clear,"Studying, Socializing, Leisure",74,60
+Austin,2025-10-22,Morning,3,Good,Sunny,"Studying, Leisure, Commuting",89,600
+Austin,2025-10-22,Afternoon,6,Good,Sunny,Studying,83,90
+Austin,2025-10-22,Evening,8,Very Good,Sunny,"Studying, Leisure, Hobbies, Exercise/Training",99,240
+Austin,2025-10-22,Night,4,Neutral,Clear,"Studying, Leisure",81,15
+Austin,2025-10-23,Morning,8,Good,Sunny,"Leisure, Studying, Commuting",83,5
+Austin,2025-10-23,Afternoon,6,Neutral,Sunny,"Studying, Commuting, Leisure",94,30
+Austin,2025-10-23,Evening,4,Bad,Sunny,"Studying, Leisure, Cooking/Eating",82,20
+Austin,2025-10-23,Night,6,Good,Clear,"Socializing, Exercise/Training, Studying, Hobbies",76,240
+Austin,2025-10-24,Morning,4,Neutral,Cloudy,Leisure,65,600
+Austin,2025-10-24,Afternoon,9,Good,Cloudy,"Studying, Leisure",94,0
+Austin,2025-10-24,Evening,6,Good,Cloudy,"Leisure, Hobbies, Commuting",91,240
+Austin,2025-10-24,Night,8,Good,Clear,"Socializing, Cooking/Eating, Leisure",82,15
+Austin,2025-10-25,Morning,4,Neutral,Partially Cloudy,"Studying, Exercise/Training, Leisure",78,30
+Austin,2025-10-25,Afternoon,6,Good,Partially Cloudy,"Hobbies, Leisure",85,45
+Austin,2025-10-25,Evening,7,Very Good,Cloudy,"Socializing, Leisure, Cooking/Eating",79,180
+Austin,2025-10-25,Night,3,Bad,Cloudy,"Socializing, Cooking/Eating",90,45
+Austin,2025-10-26,Morning,3,Neutral,Cloudy,Socializing,74,600
+Austin,2025-10-26,Afternoon,5,Neutral,Cloudy,"Studying, Leisure, Hobbies",84,600
+Austin,2025-10-26,Evening,7,Good,Cloudy,"Studying, Exercise/Training, Hobbies, Leisure",92,600
+Austin,2025-10-27,Morning,6,Neutral,Sunny,"Studying, Leisure ",65,0
+Austin,2025-10-27,Evening,7,Good,Clear,"Studying, Leisure, Socializing, Hobbies",89,0
+Austin,2025-10-27,Night,8,Very Good,Clear,"Studying, Leisure, Hobbies",81,60
+Austin,2025-10-28,Morning,8,Good,Cloudy,Hobbies,82,15
+Austin,2025-10-28,Afternoon,6,Good,Cloudy,"Studying, Cooking/Eating, Exercise/Training",91,0
+Austin,2025-10-28,Evening,5,Neutral,Cloudy,"Studying, Cooking/Eating, Hobbies",86,45
+Austin,2025-10-28,Night,8,Good,Cloudy,Studying,78,180
+Austin,2025-10-29,Morning,9,Very Good,Sunny,"Hobbies, Studying",83,15
+Austin,2025-10-29,Afternoon,8,Very Good,Sunny,Hobbies,95,60
+Austin,2025-10-29,Evening,10,Very Good,Clear,Hobbies,83,120
+Austin,2025-10-29,Night,10,Good,Clear,Hobbies,82,25
+Austin,2025-10-30,Morning,3,Bad,Cloudy,"Leisure, Studying, Hobbies",76,0
+Austin,2025-10-30,Afternoon,4,Neutral,Cloudy,"Exercise/Training, Studying",98,0
+Austin,2025-11-02,Morning,5,Bad,Partially Cloudy,"Socializing, Commuting, Exercise/Training ",81,30
+Austin,2025-11-02,Afternoon,3,Neutral,Partially Cloudy,Leisure,87,0
+Austin,2025-11-02,Evening,6,Good,Clear,Studying,91,180
+Austin,2025-11-02,Night,4,Good,Clear,Leisure,76,0
+Austin,2025-11-03,Morning,7,Good,Cloudy,"Hobbies, Leisure, Studying",75,0
+Austin,2025-11-03,Afternoon,8,Very Good,Cloudy,"Hobbies, Leisure, Studying",89,15
+Austin,2025-11-03,Evening,10,Good,Cloudy,Exercise/Training,86,25
+Austin,2025-11-03,Night,5,Neutral,Cloudy,"Studying, Hobbies, Socializing",76,25
+Jack,2025-10-14,Morning,6,Good,Sunny,Exercise/Training,92,30
+Jack,2025-10-14,Afternoon,5,Neutral,Sunny,Working,80,210
+Jack,2025-10-14,Evening,7,Good,Cloudy,Socializing,86,120
+Jack,2025-10-14,Night,6,Good,Clear,Studying,70,180
+Jack,2025-10-15,Morning,4,Good,Sunny,Leisure,70,20
+Jack,2025-10-15,Afternoon,7,Neutral,Sunny,Working,82,240
+Jack,2025-10-15,Evening,8,Very Good,Sunny,Exercise/Training,100,10
+Jack,2025-10-15,Night,6,Good,Sunny,Studying,72,20
+Jack,2025-10-16,Morning,4,Neutral,Sunny,Cooking/Eating,68,15
+Jack,2025-10-16,Afternoon,6,Bad,Sunny,Working,85,180
+Jack,2025-10-16,Evening,5,Neutral,Cloudy,Leisure,74,120
+Jack,2025-10-16,Night,4,Neutral,Clear,Studying,66,210
+Jack,2025-10-17,Morning,5,Neutral,Cloudy,Studying,72,90
+Jack,2025-10-17,Afternoon,6,Good,Sunny,Working,82,180
+Jack,2025-10-17,Evening,7,Good,Clear,Leisure,80,150
+Jack,2025-10-17,Night,5,Neutral,Clear,Hobbies,68,240
+Jack,2025-10-18,Morning,6,Good,Sunny,Exercise/Training,95,45
+Jack,2025-10-18,Afternoon,7,Very Good,Sunny,Leisure,78,150
+Jack,2025-10-18,Evening,8,Very Good,Clear,Socializing,90,180
+Jack,2025-10-18,Night,6,Good,Clear,Leisure,72,240
+Jack,2025-10-19,Morning,5,Neutral,Cloudy,Hobbies,70,60
+Jack,2025-10-19,Afternoon,5,Neutral,Cloudy,Studying,76,150
+Jack,2025-10-19,Evening,6,Good,Partially Cloudy,Leisure,78,120
+Jack,2025-10-19,Night,5,Neutral,Clear,Studying,70,210
+Jack,2025-10-20,Morning,4,Neutral,Cloudy,Commuting,72,90
+Jack,2025-10-20,Afternoon,6,Good,Sunny,Working,82,180
+Jack,2025-10-20,Evening,6,Good,Clear,Studying,76,150
+Jack,2025-10-20,Night,5,Neutral,Clear,Leisure,68,240
+Jack,2025-10-21,Morning,5,Neutral,Sunny,Exercise/Training,90,40
+Jack,2025-10-21,Afternoon,6,Good,Sunny,Working,80,210
+Jack,2025-10-21,Evening,7,Good,Clear,Hobbies,78,180
+Jack,2025-10-21,Night,5,Neutral,Clear,Studying,70,240
+Jack,2025-10-22,Morning,6,Good,Sunny,Cooking/Eating,72,20
+Jack,2025-10-22,Afternoon,6,Good,Partially Cloudy,Working,84,200
+Jack,2025-10-22,Evening,7,Very Good,Clear,Socializing,88,150
+Jack,2025-10-22,Night,6,Good,Clear,Leisure,72,240
+Jack,2025-10-23,Morning,4,Neutral,Cloudy,Studying,72,60
+Jack,2025-10-23,Afternoon,5,Neutral,Cloudy,Working,78,180
+Jack,2025-10-23,Evening,6,Good,Clear,Leisure,80,150
+Jack,2025-10-23,Night,5,Neutral,Clear,Hobbies,70,240
+Jack,2025-10-24,Morning,5,Neutral,Sunny,Exercise/Training,92,30
+Jack,2025-10-24,Afternoon,7,Good,Sunny,Working,84,210
+Jack,2025-10-24,Evening,6,Good,Clear,Leisure,78,180
+Jack,2025-10-24,Night,4,Neutral,Clear,Studying,68,240
+Jack,2025-10-25,Morning,6,Good,Sunny,Leisure,76,90
+Jack,2025-10-25,Afternoon,7,Very Good,Partially Cloudy,Hobbies,80,180
+Jack,2025-10-25,Evening,8,Very Good,Clear,Socializing,92,150
+Jack,2025-10-25,Night,6,Good,Clear,Leisure,72,240
+Jack,2025-10-26,Morning,5,Neutral,Cloudy,Studying,72,60
+Jack,2025-10-26,Afternoon,6,Good,Rain,Commuting,78,150
+Jack,2025-10-26,Evening,6,Good,Cloudy,Leisure,80,150
+Jack,2025-10-26,Night,5,Neutral,Clear,Studying,70,240
+Jack,2025-10-27,Morning,4,Neutral,Partially Cloudy,Commuting,74,60
+Jack,2025-10-27,Afternoon,5,Neutral,Cloudy,Working,80,180
+Jack,2025-10-27,Evening,6,Good,Clear,Studying,76,150
+Jack,2025-10-27,Night,5,Neutral,Clear,Leisure,70,240
+Jack,2025-10-28,Morning,6,Good,Sunny,Cooking/Eating,72,20
+Jack,2025-10-28,Afternoon,6,Good,Sunny,Working,84,210
+Jack,2025-10-28,Evening,7,Good,Clear,Hobbies,80,180
+Jack,2025-10-28,Night,6,Good,Clear,Leisure,72,240
+Jack,2025-10-29,Morning,5,Neutral,Cloudy,Studying,72,60
+Jack,2025-10-29,Afternoon,6,Good,Partially Cloudy,Working,82,200
+Jack,2025-10-29,Evening,6,Good,Clear,Exercise/Training,94,120
+Jack,2025-10-29,Night,5,Neutral,Clear,Leisure,70,240
+Jack,2025-10-30,Morning,4,Neutral,Cloudy,Commuting,72,90
+Jack,2025-10-30,Afternoon,5,Neutral,Rain,Working,78,180
+Jack,2025-10-30,Evening,6,Good,Cloudy,Leisure,80,150
+Jack,2025-10-30,Night,4,Neutral,Clear,Studying,68,240
+Jack,2025-10-31,Morning,6,Good,Sunny,Exercise/Training,96,30
+Jack,2025-10-31,Afternoon,7,Very Good,Sunny,Working,84,210
+Jack,2025-10-31,Evening,8,Very Good,Clear,Socializing,98,180
+Jack,2025-10-31,Night,6,Good,Clear,Leisure,74,240
+Jack,2025-11-01,Morning,5,Neutral,Cloudy,Hobbies,72,60
+Jack,2025-11-01,Afternoon,6,Good,Partially Cloudy,Leisure,78,180
+Jack,2025-11-01,Evening,7,Good,Clear,Socializing,88,180
+Jack,2025-11-01,Night,5,Neutral,Clear,Leisure,70,240
+Jack,2025-11-02,Morning,5,Neutral,Cloudy,Studying,72,90
+Jack,2025-11-02,Afternoon,5,Neutral,Cloudy,Working,78,150
+Jack,2025-11-02,Evening,6,Good,Clear,Hobbies,80,180
+Jack,2025-11-02,Night,4,Neutral,Clear,Leisure,68,240
+Jack,2025-11-03,Morning,6,Good,Sunny,Exercise/Training,92,30
+Jack,2025-11-03,Afternoon,6,Good,Partially Cloudy,Working,82,210
+Jack,2025-11-03,Evening,7,Good,Clear,Studying,76,180
+Jack,2025-11-03,Night,5,Neutral,Clear,Leisure,70,240
+Kirthik,2025-10-13,Morning,7,Good,Snow,Leisure,94,100
+Kirthik,2025-10-13,Afternoon,4,Good,Cloudy,Studying,80,140
+Kirthik,2025-10-13,Evening,7,Good,Partially Cloudy,Commuting,102,400
+Kirthik,2025-10-13,Night,9,Very Good,Cloudy,Hobbies,83,320
+Kirthik,2025-10-14,Morning,6,Neutral,Cloudy,Exercise/Training,105,390
+Kirthik,2025-10-14,Afternoon,10,Very Good,Partially Cloudy,Working,92,200
+Kirthik,2025-10-14,Evening,4,Neutral,Sunny,Working,73,300
+Kirthik,2025-10-14,Night,10,Very Good,Partially Cloudy,Exercise/Training,114,100
+Kirthik,2025-10-15,Morning,5,Neutral,Cloudy,Socializing,79,200
+Kirthik,2025-10-15,Afternoon,7,Good,Partially Cloudy,Studying,84,190
+Kirthik,2025-10-15,Evening,5,Neutral,Partially Cloudy,Studying,100,92
+Kirthik,2025-10-15,Night,6,Neutral,Cloudy,Leisure,64,20
+Kirthik,2025-10-16,Morning,9,Bad,Sunny,Leisure,72,29
+Kirthik,2025-10-16,Afternoon,5,Very Good,Sunny,Working,82,87
+Kirthik,2025-10-16,Evening,7,Good,Rain,Exercise/Training,102,10
+Kirthik,2025-10-16,Night,5,Neutral,Cloudy,Working,82,138
+Kirthik,2025-10-17,Morning,8,Very Good,Sunny,Socializing,72,82
+Kirthik,2025-10-17,Afternoon,6,Neutral,Sunny,Working,90,100
+Kirthik,2025-10-17,Evening,6,Very Good,Partially Cloudy,Cooking/Eating,70,200
+Kirthik,2025-10-17,Night,7,Bad,Rain,Hobbies,72,19
+Kirthik,2025-10-18,Morning,10,Very Good,Partially Cloudy,"Hobbies, Commuting",82,91
+Kirthik,2025-10-18,Afternoon,7,Good,Sunny,"Socializing, Studying",81,190
+Kirthik,2025-10-18,Evening,6,Very Bad,Sunny,Working,65,20
+Kirthik,2025-10-18,Night,7,Neutral,Clear,Leisure,72,55
+Kirthik,2025-10-19,Morning,8,Good,Cloudy,Leisure,78,120
+Kirthik,2025-10-19,Afternoon,6,Neutral,Partially Cloudy,Working,88,45
+Kirthik,2025-10-19,Evening,7,Good,Sunny,Commuting,102,180
+Kirthik,2025-10-19,Night,8,Very Good,Cloudy,Socializing,70,35
+Kirthik,2025-10-20,Morning,4,Neutral,Rain,Leisure,82,160
+Kirthik,2025-10-20,Afternoon,2,Very Bad,Cloudy,Socializing,76,210
+Kirthik,2025-10-20,Evening,3,Bad,Clear,Exercise/Training,118,40
+Kirthik,2025-10-20,Night,8,Good,Sunny,Studying,65,25
+Kirthik,2025-10-21,Morning,7,Good,Cloudy,Leisure,80,140
+Kirthik,2025-10-21,Afternoon,8,Very Good,Sunny,Studying,90,180
+Kirthik,2025-10-21,Evening,6,Neutral,Partially Cloudy,Socializing,95,220
+Kirthik,2025-10-21,Night,9,Neutral,Clear,Leisure,75,30
+Kirthik,2025-10-22,Morning,1,Bad,Sunny,Working,85,210
+Kirthik,2025-10-22,Afternoon,4,Neutral,Sunny,Studying,92,90
+Kirthik,2025-10-22,Evening,6,Good,Partially Cloudy,Leisure,88,170
+Kirthik,2025-10-22,Night,10,Very Good,Clear,Hobbies,58,40
+Kirthik,2025-10-23,Morning,10,Neutral,Cloudy,Leisure,76,150
+Kirthik,2025-10-23,Afternoon,8,Neutral,Sunny,Studying,84,210
+Kirthik,2025-10-23,Evening,5,Good,Partially Cloudy,Commuting,88,260
+Kirthik,2025-10-23,Night,8,Neutral,Clear,Leisure,62,20
+Kirthik,2025-10-24,Morning,6,Good,Snow,Leisure,78,110
+Kirthik,2025-10-24,Afternoon,7,Neutral,Cloudy,Studying,90,240
+Kirthik,2025-10-24,Evening,5,Neutral,Rain,Cooking/Eating,82,35
+Kirthik,2025-10-24,Night,8,Good,Clear,Hobbies,64,30
+Kirthik,2025-10-25,Morning,9,Very Good,Sunny,Working,132,25
+Kirthik,2025-10-25,Afternoon,6,Neutral,Partially Cloudy,Studying,88,180
+Kirthik,2025-10-25,Evening,7,Good,Cloudy,Exercise/Training,104,220
+Kirthik,2025-10-25,Night,8,Neutral,Clear,Socializing,70,40
+Kirthik,2025-10-26,Morning,5,Neutral,Cloudy,Studying,86,210
+Kirthik,2025-10-26,Afternoon,6,Good,Sunny,Hobbies,90,150
+Kirthik,2025-10-26,Evening,4,Bad,Rain,Working,78,190
+Kirthik,2025-10-26,Night,7,Neutral,Clear,Studying,62,40
+Kirthik,2025-10-27,Morning,8,Good,Sunny,Exercise/Training,102,180
+Kirthik,2025-10-27,Afternoon,7,Neutral,Cloudy,Leisure,88,240
+Kirthik,2025-10-27,Evening,6,Neutral,Clear,Working,84,120
+Kirthik,2025-10-27,Night,9,Good,Clear,Studying,60,50
+Kirthik,2025-10-28,Morning,6,Neutral,Cloudy,Socializing,82,160
+Kirthik,2025-10-28,Afternoon,5,Bad,Rain,Leisure,88,240
+Kirthik,2025-10-28,Evening,7,Good,Sunny,Studying,128,35
+Kirthik,2025-10-28,Night,8,Neutral,Clear,Exercise/Training,64,30
+Kirthik,2025-10-29,Morning,7,Good,Cloudy,Hobbies,86,210
+Kirthik,2025-10-29,Afternoon,8,Very Good,Sunny,Studying,98,160
+Kirthik,2025-10-29,Evening,6,Neutral,Partially Cloudy,Working,82,240
+Kirthik,2025-10-29,Night,9,Good,Clear,Cooking/Eating,62,30
+Kirthik,2025-10-30,Morning,5,Neutral,Cloudy,Leisure,82,200
+Kirthik,2025-10-30,Afternoon,7,Good,Sunny,Studying,90,260
+Kirthik,2025-10-30,Evening,6,Neutral,Rain,Commuting,84,40
+Kirthik,2025-10-30,Night,8,Very Good,Clear,Leisure,72,20
+Kirthik,2025-10-31,Morning,9,Very Good,Sunny,Studying,140,20
+Kirthik,2025-10-31,Afternoon,6,Neutral,Cloudy,Commuting,88,190
+Kirthik,2025-10-31,Evening,7,Good,Partially Cloudy,Leisure,102,240
+Kirthik,2025-10-31,Night,8,Neutral,Clear,Exercise/Training,68,30
+Kirthik,2025-11-01,Morning,7,Good,Cloudy,Studying,84,120
+Kirthik,2025-11-01,Afternoon,6,Neutral,Sunny,Leisure,86,240
+Kirthik,2025-11-01,Evening,5,Neutral,Partially Cloudy,Studying,78,200
+Kirthik,2025-11-01,Night,8,Good,Clear,Leisure,65,20
+Kirthik,2025-11-02,Morning,6,Neutral,Cloudy,Socializing,82,180
+Kirthik,2025-11-02,Afternoon,7,Good,Sunny,Working,90,240
+Kirthik,2025-11-02,Evening,6,Neutral,Rain,Studying,96,200
+Kirthik,2025-11-02,Night,9,Very Good,Clear,Commuting,58,25
+Kirthik,2025-11-03,Morning,8,Good,Snow,Studying,98,160
+Kirthik,2025-11-03,Afternoon,7,Neutral,Cloudy,Commuting,88,220
+Kirthik,2025-11-03,Evening,6,Neutral,Clear,Studying,84,200
+Kirthik,2025-11-03,Night,9,Good,Clear,Leisure,62,30
+Yousri,2025-10-13,Morning,3,Neutral,Sunny,Studying,65,170
+Yousri,2025-10-13,Afternoon,5,Good,Sunny,Studying,80,120
+Yousri,2025-10-13,Evening,4,Good,Clear,Studying,101,95
+Yousri,2025-10-13,Night,2,Neutral,Clear,Studying,81,165
+Yousri,2025-10-14,Morning,3,Bad,Sunny,Studying,94,600
+Yousri,2025-10-14,Afternoon,5,Neutral,Sunny,Studying,93,960
+Yousri,2025-10-14,Evening,5,Neutral,Partially Cloudy,Studying,61,30
+Yousri,2025-10-14,Night,3,Neutral,Clear,Studying,84,15
+Yousri,2025-10-15,Morning,3,Bad,Sunny,Leisure,82,540
+Yousri,2025-10-15,Afternoon,6,Good,Sunny,Studying,73,960
+Yousri,2025-10-15,Evening,4,Neutral,Partially Cloudy,Studying,77,95
+Yousri,2025-10-15,Night,5,Neutral,Clear,Studying,98,150
+Yousri,2025-10-16,Morning,6,Good,Sunny,Socializing,81,90
+Yousri,2025-10-16,Afternoon,7,Good,Sunny,Leisure,83,160
+Yousri,2025-10-16,Evening,8,Very Good,Sunny,Socializing,64,105
+Yousri,2025-10-16,Night,8,Very Good,Clear,Leisure,89,230
+Yousri,2025-10-17,Morning,6,Neutral,Cloudy,Studying,80,110
+Yousri,2025-10-17,Afternoon,7,Good,Cloudy,Leisure,83,155
+Yousri,2025-10-17,Evening,6,Neutral,Cloudy,Leisure,67,100
+Yousri,2025-10-17,Night,8,Good,Cloudy,Socializing,102,65
+Yousri,2025-10-18,Morning,6,Neutral,Sunny,Leisure,74,125
+Yousri,2025-10-18,Afternoon,5,Neutral,Sunny,Leisure,70,115
+Yousri,2025-10-18,Evening,5,Good,Clear,Leisure,97,160
+Yousri,2025-10-18,Night,4,Good,Clear,Leisure,62,175
+Yousri,2025-10-19,Morning,4,Neutral,Sunny,Leisure,102,155
+Yousri,2025-10-19,Afternoon,5,Very Good,Sunny,Socializing,80,115
+Yousri,2025-10-19,Evening,3,Very Good,Clear,Socializing,98,165
+Yousri,2025-10-19,Night,6,Good,Clear,Socializing,100,240
+Yousri,2025-10-20,Morning,4,Neutral,Sunny,Leisure,69,190
+Yousri,2025-10-20,Afternoon,5,Neutral,Sunny,Studying,68,115
+Yousri,2025-10-20,Evening,6,Neutral,Clear,Studying,94,200
+Yousri,2025-10-20,Night,7,Good,Clear,Leisure,86,190
+Yousri,2025-10-21,Morning,5,Bad,Sunny,Cooking/Eating,61,245
+Yousri,2025-10-21,Afternoon,6,Neutral,Sunny,Studying,60,265
+Yousri,2025-10-21,Evening,6,Good,Sunny,Studying,64,215
+Yousri,2025-10-21,Night,6,Neutral,Clear,"Studying, Cooking/Eating, Leisure",84,190
+Yousri,2025-10-22,Morning,5,Neutral,Sunny,Studying,87,195
+Yousri,2025-10-22,Afternoon,6,Neutral,Sunny,Studying,74,160
+Yousri,2025-10-22,Evening,8,Good,Clear,Socializing,91,190
+Yousri,2025-10-22,Night,5,Good,Clear,Socializing,80,205
+Yousri,2025-10-23,Morning,4,Neutral,Sunny,Leisure,81,135
+Yousri,2025-10-23,Afternoon,4,Neutral,Sunny,Leisure,102,255
+Yousri,2025-10-23,Evening,7,Neutral,Clear,Studying,100,230
+Yousri,2025-10-23,Night,5,Neutral,Clear,"Studying, Leisure",61,210
+Yousri,2025-10-24,Morning,3,Bad,Sunny,Leisure,79,115
+Yousri,2025-10-24,Afternoon,5,Bad,Sunny,Studying,77,245
+Yousri,2025-10-24,Evening,5,Neutral,Clear,Studying,88,215
+Yousri,2025-10-24,Night,4,Neutral,Clear,Leisure,62,260
+Yousri,2025-10-25,Morning,7,Neutral,Partially Cloudy,Studying,89,290
+Yousri,2025-10-25,Afternoon,7,Neutral,Partially Cloudy,Studying,104,285
+Yousri,2025-10-25,Evening,8,Good,Partially Cloudy,Studying,84,245
+Yousri,2025-10-25,Night,7,Good,Partially Cloudy,"Socializing, Studying, Cooking/Eating",78,160
+Yousri,2025-10-26,Morning,6,Neutral,Sunny,Studying,61,310
+Yousri,2025-10-27,Morning,3,Neutral,Sunny,Leisure,99,360
+Yousri,2025-10-27,Afternoon,5,Neutral,Sunny,Studying,62,270
+Yousri,2025-10-27,Evening,7,Neutral,Clear,Studying,103,260
+Yousri,2025-10-27,Night,6,Neutral,Clear,"Studying, Leisure, Cooking/Eating",100,400
+Yousri,2025-10-28,Morning,5,Neutral,Sunny,Studying,62,300
+Yousri,2025-10-28,Afternoon,5,Neutral,Sunny,Studying,104,185
+Yousri,2025-10-28,Evening,7,Good,Clear,Leisure,99,320
+Yousri,2025-10-28,Night,6,Good,Clear,Leisure,77,140
+Yousri,2025-10-29,Morning,4,Neutral,Sunny,Leisure,81,190
+Yousri,2025-10-29,Afternoon,6,Neutral,Sunny,"Leisure, Studying",65,60
+Yousri,2025-10-29,Evening,3,Neutral,Clear,Studying,62,300
+Yousri,2025-10-29,Night,5,Neutral,Clear,Studying,99,260
+Yousri,2025-10-30,Morning,2,Bad,Sunny,Leisure,89,270
+Yousri,2025-10-30,Afternoon,2,Bad,Sunny,Leisure,103,265
+Yousri,2025-10-30,Evening,3,Very Bad,Clear,Leisure,98,300
+Yousri,2025-10-30,Night,1,Very Bad,Clear,Leisure,63,600
+Yousri,2025-10-31,Morning,3,Neutral,Sunny,Leisure,94,1000
+Yousri,2025-10-31,Afternoon,1,Very Bad,Sunny,Leisure,66,200
+Yousri,2025-10-31,Evening,1,Very Bad,Clear,Leisure,91,400
+Yousri,2025-10-31,Night,1,Bad,Clear,Leisure,86,200
+Yousri,2025-11-01,Morning,1,Bad,Sunny,Leisure,60,500
+Yousri,2025-11-01,Afternoon,3,Bad,Cloudy,Leisure,64,235
+Yousri,2025-11-01,Evening,3,Good,Rain,Leisure,84,145
+Yousri,2025-11-01,Night,3,Bad,Snow,Leisure,104,325
+Yousri,2025-11-02,Morning,2,Neutral,Sunny,Leisure,99,125
+Yousri,2025-11-02,Afternoon,3,Neutral,Sunny,Leisure,71,245
+Yousri,2025-11-02,Evening,2,Neutral,Clear,Leisure,81,125
+Yousri,2025-11-02,Night,2,Bad,Clear,Leisure,77,235
+Yousri,2025-11-03,Morning,5,Neutral,Sunny,Leisure,62,270
+Yousri,2025-11-03,Afternoon,5,Neutral,Sunny,"Studying, Leisure",80,350
+Yousri,2025-11-03,Evening,6,Neutral,Partially Cloudy,"Studying, Leisure",73,285
+Yousri,2025-11-03,Night,4,Neutral,Partially Cloudy,"Studying, Leisure",67,125
