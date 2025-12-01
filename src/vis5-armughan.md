@@ -19,7 +19,7 @@ display(
     y: { label: null },
     color: { scheme: "ylorrd", legend: true, label: "Strength" },
     caption:
-      "Correlation (r) represents the strength and direction of the relationship between weather conditions and mood-related focus. Values closer to 1.00 indicate a strong positive association, while values near 0.00 indicate little or no relationship.",
+      "This chart displays the Pearson correlation (r) between Mood and Focus, categorized by weather type. Higher values (near 1.00) indicate a strong link where focus mirrors mood; lower values (near 0.00) indicate that mood and focus are decoupled.",
     marks: [
       Plot.ruleY(weatherData, {
         x1: 0,
