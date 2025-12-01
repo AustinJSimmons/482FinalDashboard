@@ -1,5 +1,5 @@
 ---
-title: Visualization
+title: Eating-Focus/Mood Visualization
 toc: false
 ---
 
