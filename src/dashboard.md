@@ -40,8 +40,9 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
             legend: true
         },
         marks: [
-            // Add a rule at the average Heart Rate
-            Plot.ruleY(data, Plot.groupZ({y: "mean"}, {y: "Heart Rate", stroke: "red", strokeOpacity: 0.5})),
+            metric === "Focus"
+                ? Plot.linearRegressionY(data, {x: metric, y: "Heart Rate", stroke: "red"})
+                : Plot.ruleY(data, Plot.groupZ({y: "mean"}, {y: "Heart Rate", stroke: "red", strokeOpacity: 0.5})),
             
             // The main data points
             Plot.dot(data, {

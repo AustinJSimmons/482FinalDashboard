@@ -20,7 +20,7 @@ for file in files:
 
 combined_df = pd.concat(all_data, ignore_index=True)
 
-final_df = combined_df[['Name', 'Date', 'Time of Day', 'Focus', 'Mood', 'Heart Rate']]
+final_df = combined_df[['Name', 'Date', 'Time of Day', 'Focus', 'Mood', 'Heart Rate', 'Activity']]
 
 final_df = final_df.dropna(subset=['Focus', 'Mood', 'Heart Rate'], how='all')
 
@@ -28,4 +28,12 @@ final_df['Focus'] = final_df['Focus'].round().astype('Int64')
 final_df['Heart Rate'] = final_df['Heart Rate'].round().astype('Int64')
 
 final_df.to_csv('hr_focus_mood.csv', index=False)
+
+activity_df = final_df.copy()
+
+activity_df['Activity'] = activity_df['Activity'].astype(str).str.split(',')
+activity_df = activity_df.explode('Activity')
+activity_df['Activity'] = activity_df['Activity'].str.strip()
+
+activity_df.to_csv('hr_activity.csv')
 
