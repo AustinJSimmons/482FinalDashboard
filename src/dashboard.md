@@ -40,8 +40,9 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
             legend: true
         },
         marks: [
-            // Add a rule at the average Heart Rate
-            Plot.ruleY(data, Plot.groupZ({y: "mean"}, {y: "Heart Rate", stroke: "red", strokeOpacity: 0.5})),
+            metric === "Focus"
+                ? Plot.linearRegressionY(data, {x: metric, y: "Heart Rate", stroke: "red"})
+                : Plot.ruleY(data, Plot.groupZ({y: "mean"}, {y: "Heart Rate", stroke: "red", strokeOpacity: 0.5})),
             
             // The main data points
             Plot.dot(data, {
@@ -66,7 +67,7 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
 <!-- HTML -->
 <div class='dashboard'>
     <h1>Interactive Dashboard</h1>
-    <div class='grid grid-cols-4' style='height: 100%; align-content: start;'>
+    <div class='grid grid-cols-4'>
         <div class='grid grid-colspan-3' style='margin: 0;'>
             <div class='grid grid-cols-2' style='margin: 0;'>
                 <div class='card'>
@@ -139,9 +140,5 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
   .dashboard h1 {
     font-size: 75px;
   }
-}
-
-.control-panel {
-
 }
 </style>
