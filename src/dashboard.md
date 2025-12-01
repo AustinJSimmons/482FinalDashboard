@@ -213,6 +213,114 @@ function mealChart(filtered, {width, metric, colorByPerson, person}) {
   })
 }
 ```
+
+```js
+// Load the combined CSV
+const data3 = await FileAttachment("data/full_dataset.csv").csv({typed: true});
+
+// Map mood categories to an ordered numeric scale (1–5)
+const moodOrder = ["Very Bad", "Bad", "Neutral", "Good", "Very Good"];
+
+// Add moodScore and mainActivity to each data point
+const processedData = data3.map(d => ({
+  ...d,
+  moodScore: moodOrder.indexOf(d.Mood) + 1,
+  mainActivity: d.Activity ? d.Activity.split(',')[0].trim() : 'Unknown'
+}));
+
+// Dynamically get all unique activities from the data
+const allActivities = Array.from(
+  new Set(processedData.map(d => d.mainActivity))
+).sort();
+
+const selectedActivitiesInput = Inputs.checkbox(allActivities, {
+    label: "Select activities to compare (choose 2-5 for best readability)",
+    value: allActivities.slice(0, 4) 
+});
+
+const showPointsInput = Inputs.toggle({
+    label: "Show individual data points",
+    value: true
+});
+
+const colorInput3 = Inputs.toggle({
+    label: "Color by Person (instead of Activity)",
+    value: false
+});
+
+const showPointsValue = Generators.input(showPointsInput);
+const selectedActivitesValue = Generators.input(selectedActivitiesInput);
+const colorValue3 = Generators.input(colorInput3);
+```
+
+```js
+// Filter data based on selected activities
+const filtered2 = processedData.filter(d => 
+  selectedActivitesValue.includes(d.mainActivity)
+);
+```
+
+```js
+// Add jitter for better visibility
+const filteredWithJitter = filtered2.map(d => ({
+  ...d,
+  moodScoreJittered: d.moodScore + (Math.random() - 0.5) * 0.15
+}));
+```
+
+```js
+function activityChart(filteredWithJitter, {width, selectedActivites, showPoints, colorByPerson, filtered}) {
+  return Plot.plot({
+    title: "Mood–Focus Relationship by Activity",
+    grid: true,
+    x: {
+      label: "Mood (Very Bad → Very Good)",
+      domain: [1, 5],
+      tickFormat: d => moodOrder[d - 1] || ""
+    },
+    y: {
+      label: "Focus (0–10)",
+      domain: [0, 10]
+    },
+    color: {
+      legend: true,
+      type: "categorical",
+      scheme: "tableau10",
+      label: colorByPerson ? "Person" : "Activity"
+    },
+    marks: [
+      // Regression lines for each activity 
+      !colorByPerson ? Plot.linearRegressionY(filtered, {
+        x: "moodScore",
+        y: "Focus",
+        stroke: "mainActivity",
+        strokeWidth: 3
+      }) : null,
+      
+      // Individual data points 
+      showPoints ? Plot.dot(filteredWithJitter, {
+        x: "moodScoreJittered",
+        y: "Focus",
+        fill: colorByPerson ? "Name" : "mainActivity",
+        r: 3.5,
+        fillOpacity: 0.5,
+        stroke: "white",
+        strokeWidth: 0.5,
+        tip: {
+          format: {
+            x: false,
+            y: true,
+            fill: true,
+            Mood: true,
+            Focus: true,
+            Name: true
+          }
+        }
+      }) : null
+    ].filter(d => d !== null)
+  })
+}
+```
 <!-- HTML -->
 <div class='dashboard'>
     <h1>Interactive Dashboard</h1>
@@ -226,6 +334,7 @@ function mealChart(filtered, {width, metric, colorByPerson, person}) {
                   ${resize((width) => weatherImpactChart(weatherData, {width}))}
                 </div>
                 <div class='card'>
+                  ${resize((width) => activityChart(filteredWithJitter, {width, selectedActivites: selectedActivitesValue, showPoints: showPointsValue, colorByPerson: colorValue3, filtered: filtered2}))}
                 </div>
                 <div class='card'>
                 </div>
@@ -243,9 +352,12 @@ function mealChart(filtered, {width, metric, colorByPerson, person}) {
                     ${colorInput}
                 </div>
               </div>
-                <div>
+              <div>
                 <div class='card'>
-                    <h3>Filler</h3>
+                    <h3>Activites Chart</h3>
+                    ${selectedActivitiesInput}
+                    ${colorInput3}
+                    ${showPointsInput}
                 </div>
                 <div class='card'>
                     <h3>Filler</h3>
