@@ -144,7 +144,8 @@ y: {
   </div>
 
   <div class='card grid-colspan-2'>
-    ${resize(width => moodEffectChart(groupedData, {width}))}
+    ${resize((width) =>
+      moodEffectChart(filteredData, {width}))}
   </div>
 </div>
 
