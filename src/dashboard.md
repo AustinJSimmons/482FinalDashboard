@@ -14,14 +14,21 @@ const metricInput = Inputs.radio(
   {label: "Compare Heart Rate with:", value: "Mood"}
 );
 
+const pointInput = Inputs.toggle(
+  {label: "Hide points", value: true}
+);
+
 const colorInput = Inputs.toggle(
   {label: "Color by Person", value: true}
 );
 
 const metricValue = Generators.input(metricInput);
+
 const colorValue = Generators.input(colorInput);
 
-function heartRateChart(data, {width, metric, colorByPerson}) {
+const pointValue = Generators.input(pointInput);
+
+function heartRateChart(data, {width, metric, colorByPerson, points}) {
     return Plot.plot({
         title: `Heart Rate vs. ${metric}`,
         subtitle: "Distribution of heart rate across different states",
@@ -45,7 +52,7 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
                 : Plot.ruleY(data, Plot.groupZ({y: "mean"}, {y: "Heart Rate", stroke: "red", strokeOpacity: 0.5})),
             
             // The main data points
-            Plot.dot(data, {
+            points === true ? null : Plot.dot(data, {
             x: metric,
             y: "Heart Rate",
             fill: colorByPerson ? "Name" : "steelblue",
@@ -58,7 +65,7 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
             x: metric,
             y: "Heart Rate",
             fillOpacity: 0.2,
-            strokeOpacity: 0.5
+            strokeOpacity: 0.5,
             })
         ]
     })
@@ -430,7 +437,7 @@ function moodEffectChart(filtered, {width, colorByPerson}) {
         <div class='grid grid-colspan-3' style='margin: 0;'>
             <div class='grid grid-cols-2' style='margin: 0; grid-auto-rows: 0fr'>
                 <div class='card'>
-                  ${resize((width) => heartRateChart(data, {width, metric: metricValue, colorByPerson: colorValue}))}
+                  ${resize((width) => heartRateChart(data, {width, metric: metricValue, colorByPerson: colorValue, points: pointValue}))}
                 </div>
                 <div class='card'>
                   ${resize((width) => weatherImpactChart(weatherData, {width}))}
@@ -453,6 +460,7 @@ function moodEffectChart(filtered, {width, colorByPerson}) {
                     <h3>Heart Rate Chart</h3>
                     ${metricInput}
                     ${colorInput}
+                    ${pointInput}
                 </div>
               </div>
               <div>
