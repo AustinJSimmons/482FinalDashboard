@@ -1,0 +1,394 @@
+Name,Date,Focus,Mood,Weather,Mood_Normalized
+Armughan,2025-10-14,5,Very Bad,Sunny,1
+Armughan,2025-10-14,7,Bad,Sunny,2
+Armughan,2025-10-14,8,Neutral,Partially Cloudy,3
+Armughan,2025-10-14,4,Good,Clear,4
+Armughan,2025-10-16,6,Good,Sunny,4
+Armughan,2025-10-16,3,Neutral,Sunny,3
+Armughan,2025-10-16,7,Neutral,Partially Cloudy,3
+Armughan,2025-10-16,3,Bad,Cloudy,2
+Armughan,2025-10-17,4,Bad,Partially Cloudy,2
+Armughan,2025-10-17,8,Neutral,Rain,3
+Armughan,2025-10-17,4,Very Good,Partially Cloudy,5
+Armughan,2025-10-17,3,Good,Clear,4
+Armughan,2025-10-18,5,Neutral,Sunny,3
+Armughan,2025-10-18,7,Good,Partially Cloudy,4
+Armughan,2025-10-18,8,Good,Cloudy,4
+Armughan,2025-10-18,8,Neutral,Cloudy,3
+Armughan,2025-10-19,5,Very Good,Partially Cloudy,5
+Armughan,2025-10-19,8,Good,Partially Cloudy,4
+Armughan,2025-10-19,9,Neutral,Cloudy,3
+Armughan,2025-10-19,9,Good,Cloudy,4
+Armughan,2025-10-20,7,Bad,Sunny,2
+Armughan,2025-10-20,8,Neutral,Sunny,3
+Armughan,2025-10-20,4,Neutral,Cloudy,3
+Armughan,2025-10-20,3,Neutral,Partially Cloudy,3
+Armughan,2025-10-21,6,Neutral,Sunny,3
+Armughan,2025-10-21,5,Neutral,Sunny,3
+Armughan,2025-10-21,7,Neutral,Partially Cloudy,3
+Armughan,2025-10-21,6,Bad,Clear,2
+Armughan,2025-10-22,4,Neutral,Sunny,3
+Armughan,2025-10-22,7,Neutral,Sunny,3
+Armughan,2025-10-22,3,Neutral,Sunny,3
+Armughan,2025-10-22,8,Bad,Clear,2
+Armughan,2025-10-23,4,Neutral,Sunny,3
+Armughan,2025-10-23,8,Bad,Sunny,2
+Armughan,2025-10-23,9,Very Bad,Partially Cloudy,1
+Armughan,2025-10-23,10,Very Bad,Cloudy,1
+Armughan,2025-10-25,6,Very Good,Sunny,5
+Armughan,2025-10-25,8,Very Good,Sunny,5
+Armughan,2025-10-25,3,Good,Cloudy,4
+Armughan,2025-10-26,8,Bad,Cloudy,2
+Armughan,2025-10-26,4,Bad,Partially Cloudy,2
+Armughan,2025-10-26,7,Very Bad,Cloudy,1
+Armughan,2025-10-27,4,Bad,Partially Cloudy,2
+Armughan,2025-10-27,5,Neutral,Partially Cloudy,3
+Armughan,2025-10-28,1,Neutral,Cloudy,3
+Armughan,2025-10-29,4,Neutral,Sunny,3
+Armughan,2025-10-29,5,Neutral,Sunny,3
+Armughan,2025-10-29,8,Neutral,Sunny,3
+Armughan,2025-10-29,4,Neutral,Partially Cloudy,3
+Armughan,2025-10-30,5,Neutral,Partially Cloudy,3
+Armughan,2025-10-30,7,Neutral,Sunny,3
+Armughan,2025-10-30,7,Good,Partially Cloudy,4
+Armughan,2025-10-30,3,Good,Clear,4
+Armughan,2025-10-31,4,Neutral,Sunny,3
+Armughan,2025-10-31,6,Neutral,Partially Cloudy,3
+Armughan,2025-10-31,8,Good,Cloudy,4
+Armughan,2025-10-31,8,Very Good,Cloudy,5
+Armughan,2025-11-01,5,Neutral,Cloudy,3
+Armughan,2025-11-01,7,Good,Rain,4
+Armughan,2025-11-01,8,Good,Partially Cloudy,4
+Armughan,2025-11-01,4,Bad,Snow,2
+Armughan,2025-11-02,3,Neutral,Clear,3
+Armughan,2025-11-02,4,Neutral,Sunny,3
+Armughan,2025-11-02,6,Bad,Sunny,2
+Armughan,2025-11-02,8,Very Bad,Partially Cloudy,1
+Armughan,2025-11-03,5,Neutral,Cloudy,3
+Armughan,2025-11-03,8,Good,Cloudy,4
+Armughan,2025-11-03,8,Good,Cloudy,4
+Armughan,2025-11-03,5,Very Good,Cloudy,5
+Austin,2025-10-14,3,Good,Sunny,4
+Austin,2025-10-14,7,Neutral,Sunny,3
+Austin,2025-10-15,4,Bad,Sunny,2
+Austin,2025-10-15,5,Neutral,Sunny,3
+Austin,2025-10-15,7,Neutral,Sunny,3
+Austin,2025-10-15,2,Good,Sunny,4
+Austin,2025-10-16,4,Good,Sunny,4
+Austin,2025-10-16,5,Very Good,Sunny,5
+Austin,2025-10-16,4,Neutral,Sunny,3
+Austin,2025-10-16,7,Good,Sunny,4
+Austin,2025-10-17,6,Neutral,Sunny,3
+Austin,2025-10-17,3,Good,Rain,4
+Austin,2025-10-17,7,Very Good,Rain,5
+Austin,2025-10-17,6,Good,Partially Cloudy,4
+Austin,2025-10-18,3,Neutral,Partially Cloudy,3
+Austin,2025-10-19,1,Bad,Partially Cloudy,2
+Austin,2025-10-19,4,Neutral,Partially Cloudy,3
+Austin,2025-10-19,7,Neutral,Rain,3
+Austin,2025-10-19,4,Good,Rain,4
+Austin,2025-10-20,5,Good,Sunny,4
+Austin,2025-10-20,7,Neutral,Sunny,3
+Austin,2025-10-20,7,Very Good,Clear,5
+Austin,2025-10-20,9,Very Good,Clear,5
+Austin,2025-10-21,2,Neutral,Partially Cloudy,3
+Austin,2025-10-21,8,Good,Sunny,4
+Austin,2025-10-21,3,Bad,Sunny,2
+Austin,2025-10-21,7,Neutral,Clear,3
+Austin,2025-10-22,3,Good,Sunny,4
+Austin,2025-10-22,6,Good,Sunny,4
+Austin,2025-10-22,8,Very Good,Sunny,5
+Austin,2025-10-22,4,Neutral,Clear,3
+Austin,2025-10-23,8,Good,Sunny,4
+Austin,2025-10-23,6,Neutral,Sunny,3
+Austin,2025-10-23,4,Bad,Sunny,2
+Austin,2025-10-23,6,Good,Clear,4
+Austin,2025-10-24,4,Neutral,Cloudy,3
+Austin,2025-10-24,9,Good,Cloudy,4
+Austin,2025-10-24,6,Good,Cloudy,4
+Austin,2025-10-24,8,Good,Clear,4
+Austin,2025-10-25,4,Neutral,Partially Cloudy,3
+Austin,2025-10-25,6,Good,Partially Cloudy,4
+Austin,2025-10-25,7,Very Good,Cloudy,5
+Austin,2025-10-25,3,Bad,Cloudy,2
+Austin,2025-10-26,3,Neutral,Cloudy,3
+Austin,2025-10-26,5,Neutral,Cloudy,3
+Austin,2025-10-26,7,Good,Cloudy,4
+Austin,2025-10-27,6,Neutral,Sunny,3
+Austin,2025-10-27,7,Good,Clear,4
+Austin,2025-10-27,8,Very Good,Clear,5
+Austin,2025-10-28,8,Good,Cloudy,4
+Austin,2025-10-28,6,Good,Cloudy,4
+Austin,2025-10-28,5,Neutral,Cloudy,3
+Austin,2025-10-28,8,Good,Cloudy,4
+Austin,2025-10-29,9,Very Good,Sunny,5
+Austin,2025-10-29,8,Very Good,Sunny,5
+Austin,2025-10-29,10,Very Good,Clear,5
+Austin,2025-10-29,10,Good,Clear,4
+Austin,2025-10-30,3,Bad,Cloudy,2
+Austin,2025-10-30,4,Neutral,Cloudy,3
+Austin,2025-11-02,5,Bad,Partially Cloudy,2
+Austin,2025-11-02,3,Neutral,Partially Cloudy,3
+Austin,2025-11-02,6,Good,Clear,4
+Austin,2025-11-02,4,Good,Clear,4
+Austin,2025-11-03,7,Good,Cloudy,4
+Austin,2025-11-03,8,Very Good,Cloudy,5
+Austin,2025-11-03,10,Good,Cloudy,4
+Austin,2025-11-03,5,Neutral,Cloudy,3
+Jack,2025-10-14,6,Good,Sunny,4
+Jack,2025-10-14,5,Neutral,Sunny,3
+Jack,2025-10-14,7,Good,Cloudy,4
+Jack,2025-10-14,6,Good,Clear,4
+Jack,2025-10-15,4,Good,Sunny,4
+Jack,2025-10-15,7,Neutral,Sunny,3
+Jack,2025-10-15,8,Very Good,Sunny,5
+Jack,2025-10-15,6,Good,Sunny,4
+Jack,2025-10-16,4,Neutral,Sunny,3
+Jack,2025-10-16,6,Bad,Sunny,2
+Jack,2025-10-16,5,Neutral,Cloudy,3
+Jack,2025-10-16,4,Neutral,Clear,3
+Jack,2025-10-17,5,Neutral,Cloudy,3
+Jack,2025-10-17,6,Good,Sunny,4
+Jack,2025-10-17,7,Good,Clear,4
+Jack,2025-10-17,5,Neutral,Clear,3
+Jack,2025-10-18,6,Good,Sunny,4
+Jack,2025-10-18,7,Very Good,Sunny,5
+Jack,2025-10-18,8,Very Good,Clear,5
+Jack,2025-10-18,6,Good,Clear,4
+Jack,2025-10-19,5,Neutral,Cloudy,3
+Jack,2025-10-19,5,Neutral,Cloudy,3
+Jack,2025-10-19,6,Good,Partially Cloudy,4
+Jack,2025-10-19,5,Neutral,Clear,3
+Jack,2025-10-20,4,Neutral,Cloudy,3
+Jack,2025-10-20,6,Good,Sunny,4
+Jack,2025-10-20,6,Good,Clear,4
+Jack,2025-10-20,5,Neutral,Clear,3
+Jack,2025-10-21,5,Neutral,Sunny,3
+Jack,2025-10-21,6,Good,Sunny,4
+Jack,2025-10-21,7,Good,Clear,4
+Jack,2025-10-21,5,Neutral,Clear,3
+Jack,2025-10-22,6,Good,Sunny,4
+Jack,2025-10-22,6,Good,Partially Cloudy,4
+Jack,2025-10-22,7,Very Good,Clear,5
+Jack,2025-10-22,6,Good,Clear,4
+Jack,2025-10-23,4,Neutral,Cloudy,3
+Jack,2025-10-23,5,Neutral,Cloudy,3
+Jack,2025-10-23,6,Good,Clear,4
+Jack,2025-10-23,5,Neutral,Clear,3
+Jack,2025-10-24,5,Neutral,Sunny,3
+Jack,2025-10-24,7,Good,Sunny,4
+Jack,2025-10-24,6,Good,Clear,4
+Jack,2025-10-24,4,Neutral,Clear,3
+Jack,2025-10-25,6,Good,Sunny,4
+Jack,2025-10-25,7,Very Good,Partially Cloudy,5
+Jack,2025-10-25,8,Very Good,Clear,5
+Jack,2025-10-25,6,Good,Clear,4
+Jack,2025-10-26,5,Neutral,Cloudy,3
+Jack,2025-10-26,6,Good,Rain,4
+Jack,2025-10-26,6,Good,Cloudy,4
+Jack,2025-10-26,5,Neutral,Clear,3
+Jack,2025-10-27,4,Neutral,Partially Cloudy,3
+Jack,2025-10-27,5,Neutral,Cloudy,3
+Jack,2025-10-27,6,Good,Clear,4
+Jack,2025-10-27,5,Neutral,Clear,3
+Jack,2025-10-28,6,Good,Sunny,4
+Jack,2025-10-28,6,Good,Sunny,4
+Jack,2025-10-28,7,Good,Clear,4
+Jack,2025-10-28,6,Good,Clear,4
+Jack,2025-10-29,5,Neutral,Cloudy,3
+Jack,2025-10-29,6,Good,Partially Cloudy,4
+Jack,2025-10-29,6,Good,Clear,4
+Jack,2025-10-29,5,Neutral,Clear,3
+Jack,2025-10-30,4,Neutral,Cloudy,3
+Jack,2025-10-30,5,Neutral,Rain,3
+Jack,2025-10-30,6,Good,Cloudy,4
+Jack,2025-10-30,4,Neutral,Clear,3
+Jack,2025-10-31,6,Good,Sunny,4
+Jack,2025-10-31,7,Very Good,Sunny,5
+Jack,2025-10-31,8,Very Good,Clear,5
+Jack,2025-10-31,6,Good,Clear,4
+Jack,2025-11-01,5,Neutral,Cloudy,3
+Jack,2025-11-01,6,Good,Partially Cloudy,4
+Jack,2025-11-01,7,Good,Clear,4
+Jack,2025-11-01,5,Neutral,Clear,3
+Jack,2025-11-02,5,Neutral,Cloudy,3
+Jack,2025-11-02,5,Neutral,Cloudy,3
+Jack,2025-11-02,6,Good,Clear,4
+Jack,2025-11-02,4,Neutral,Clear,3
+Jack,2025-11-03,6,Good,Sunny,4
+Jack,2025-11-03,6,Good,Partially Cloudy,4
+Jack,2025-11-03,7,Good,Clear,4
+Jack,2025-11-03,5,Neutral,Clear,3
+Kirthik,2025-10-13,7,Good,Snow,4
+Kirthik,2025-10-13,4,Good,Cloudy,4
+Kirthik,2025-10-13,7,Good,Partially Cloudy,4
+Kirthik,2025-10-13,9,Very Good,Cloudy,5
+Kirthik,2025-10-14,6,Neutral,Cloudy,3
+Kirthik,2025-10-14,10,Very Good,Partially Cloudy,5
+Kirthik,2025-10-14,4,Neutral,Sunny,3
+Kirthik,2025-10-14,10,Very Good,Partially Cloudy,5
+Kirthik,2025-10-15,5,Neutral,Cloudy,3
+Kirthik,2025-10-15,7,Good,Partially Cloudy,4
+Kirthik,2025-10-15,5,Neutral,Partially Cloudy,3
+Kirthik,2025-10-15,6,Neutral,Cloudy,3
+Kirthik,2025-10-16,9,Bad,Sunny,2
+Kirthik,2025-10-16,5,Very Good,Sunny,5
+Kirthik,2025-10-16,7,Good,Rain,4
+Kirthik,2025-10-16,5,Neutral,Cloudy,3
+Kirthik,2025-10-17,8,Very Good,Sunny,5
+Kirthik,2025-10-17,6,Neutral,Sunny,3
+Kirthik,2025-10-17,6,Very Good,Partially Cloudy,5
+Kirthik,2025-10-17,7,Bad,Rain,2
+Kirthik,2025-10-18,10,Very Good,Partially Cloudy,5
+Kirthik,2025-10-18,7,Good,Sunny,4
+Kirthik,2025-10-18,6,Very Bad,Sunny,1
+Kirthik,2025-10-18,7,Neutral,Clear,3
+Kirthik,2025-10-19,8,Good,Cloudy,4
+Kirthik,2025-10-19,6,Neutral,Partially Cloudy,3
+Kirthik,2025-10-19,7,Good,Sunny,4
+Kirthik,2025-10-19,8,Very Good,Cloudy,5
+Kirthik,2025-10-20,4,Neutral,Rain,3
+Kirthik,2025-10-20,2,Very Bad,Cloudy,1
+Kirthik,2025-10-20,3,Bad,Clear,2
+Kirthik,2025-10-20,8,Good,Sunny,4
+Kirthik,2025-10-21,7,Good,Cloudy,4
+Kirthik,2025-10-21,8,Very Good,Sunny,5
+Kirthik,2025-10-21,6,Neutral,Partially Cloudy,3
+Kirthik,2025-10-21,9,Neutral,Clear,3
+Kirthik,2025-10-22,1,Bad,Sunny,2
+Kirthik,2025-10-22,4,Neutral,Sunny,3
+Kirthik,2025-10-22,6,Good,Partially Cloudy,4
+Kirthik,2025-10-22,10,Very Good,Clear,5
+Kirthik,2025-10-23,10,Neutral,Cloudy,3
+Kirthik,2025-10-23,8,Neutral,Sunny,3
+Kirthik,2025-10-23,5,Good,Partially Cloudy,4
+Kirthik,2025-10-23,8,Neutral,Clear,3
+Kirthik,2025-10-24,6,Good,Snow,4
+Kirthik,2025-10-24,7,Neutral,Cloudy,3
+Kirthik,2025-10-24,5,Neutral,Rain,3
+Kirthik,2025-10-24,8,Good,Clear,4
+Kirthik,2025-10-25,9,Very Good,Sunny,5
+Kirthik,2025-10-25,6,Neutral,Partially Cloudy,3
+Kirthik,2025-10-25,7,Good,Cloudy,4
+Kirthik,2025-10-25,8,Neutral,Clear,3
+Kirthik,2025-10-26,5,Neutral,Cloudy,3
+Kirthik,2025-10-26,6,Good,Sunny,4
+Kirthik,2025-10-26,4,Bad,Rain,2
+Kirthik,2025-10-26,7,Neutral,Clear,3
+Kirthik,2025-10-27,8,Good,Sunny,4
+Kirthik,2025-10-27,7,Neutral,Cloudy,3
+Kirthik,2025-10-27,6,Neutral,Clear,3
+Kirthik,2025-10-27,9,Good,Clear,4
+Kirthik,2025-10-28,6,Neutral,Cloudy,3
+Kirthik,2025-10-28,5,Bad,Rain,2
+Kirthik,2025-10-28,7,Good,Sunny,4
+Kirthik,2025-10-28,8,Neutral,Clear,3
+Kirthik,2025-10-29,7,Good,Cloudy,4
+Kirthik,2025-10-29,8,Very Good,Sunny,5
+Kirthik,2025-10-29,6,Neutral,Partially Cloudy,3
+Kirthik,2025-10-29,9,Good,Clear,4
+Kirthik,2025-10-30,5,Neutral,Cloudy,3
+Kirthik,2025-10-30,7,Good,Sunny,4
+Kirthik,2025-10-30,6,Neutral,Rain,3
+Kirthik,2025-10-30,8,Very Good,Clear,5
+Kirthik,2025-10-31,9,Very Good,Sunny,5
+Kirthik,2025-10-31,6,Neutral,Cloudy,3
+Kirthik,2025-10-31,7,Good,Partially Cloudy,4
+Kirthik,2025-10-31,8,Neutral,Clear,3
+Kirthik,2025-11-01,7,Good,Cloudy,4
+Kirthik,2025-11-01,6,Neutral,Sunny,3
+Kirthik,2025-11-01,5,Neutral,Partially Cloudy,3
+Kirthik,2025-11-01,8,Good,Clear,4
+Kirthik,2025-11-02,6,Neutral,Cloudy,3
+Kirthik,2025-11-02,7,Good,Sunny,4
+Kirthik,2025-11-02,6,Neutral,Rain,3
+Kirthik,2025-11-02,9,Very Good,Clear,5
+Kirthik,2025-11-03,8,Good,Snow,4
+Kirthik,2025-11-03,7,Neutral,Cloudy,3
+Kirthik,2025-11-03,6,Neutral,Clear,3
+Kirthik,2025-11-03,9,Good,Clear,4
+Yousri,2025-10-13,3,Neutral,Sunny,3
+Yousri,2025-10-13,5,Good,Sunny,4
+Yousri,2025-10-13,4,Good,Clear,4
+Yousri,2025-10-13,2,Neutral,Clear,3
+Yousri,2025-10-14,3,Bad,Sunny,2
+Yousri,2025-10-14,5,Neutral,Sunny,3
+Yousri,2025-10-14,5,Neutral,Partially Cloudy,3
+Yousri,2025-10-14,3,Neutral,Clear,3
+Yousri,2025-10-15,3,Bad,Sunny,2
+Yousri,2025-10-15,6,Good,Sunny,4
+Yousri,2025-10-15,4,Neutral,Partially Cloudy,3
+Yousri,2025-10-15,5,Neutral,Clear,3
+Yousri,2025-10-16,6,Good,Sunny,4
+Yousri,2025-10-16,7,Good,Sunny,4
+Yousri,2025-10-16,8,Very Good,Sunny,5
+Yousri,2025-10-16,8,Very Good,Clear,5
+Yousri,2025-10-17,6,Neutral,Cloudy,3
+Yousri,2025-10-17,7,Good,Cloudy,4
+Yousri,2025-10-17,6,Neutral,Cloudy,3
+Yousri,2025-10-17,8,Good,Cloudy,4
+Yousri,2025-10-18,6,Neutral,Sunny,3
+Yousri,2025-10-18,5,Neutral,Sunny,3
+Yousri,2025-10-18,5,Good,Clear,4
+Yousri,2025-10-18,4,Good,Clear,4
+Yousri,2025-10-19,4,Neutral,Sunny,3
+Yousri,2025-10-19,5,Very Good,Sunny,5
+Yousri,2025-10-19,3,Very Good,Clear,5
+Yousri,2025-10-19,6,Good,Clear,4
+Yousri,2025-10-20,4,Neutral,Sunny,3
+Yousri,2025-10-20,5,Neutral,Sunny,3
+Yousri,2025-10-20,6,Neutral,Clear,3
+Yousri,2025-10-20,7,Good,Clear,4
+Yousri,2025-10-21,5,Bad,Sunny,2
+Yousri,2025-10-21,6,Neutral,Sunny,3
+Yousri,2025-10-21,6,Good,Sunny,4
+Yousri,2025-10-21,6,Neutral,Clear,3
+Yousri,2025-10-22,5,Neutral,Sunny,3
+Yousri,2025-10-22,6,Neutral,Sunny,3
+Yousri,2025-10-22,8,Good,Clear,4
+Yousri,2025-10-22,5,Good,Clear,4
+Yousri,2025-10-23,4,Neutral,Sunny,3
+Yousri,2025-10-23,4,Neutral,Sunny,3
+Yousri,2025-10-23,7,Neutral,Clear,3
+Yousri,2025-10-23,5,Neutral,Clear,3
+Yousri,2025-10-24,3,Bad,Sunny,2
+Yousri,2025-10-24,5,Bad,Sunny,2
+Yousri,2025-10-24,5,Neutral,Clear,3
+Yousri,2025-10-24,4,Neutral,Clear,3
+Yousri,2025-10-25,7,Neutral,Partially Cloudy,3
+Yousri,2025-10-25,7,Neutral,Partially Cloudy,3
+Yousri,2025-10-25,8,Good,Partially Cloudy,4
+Yousri,2025-10-25,7,Good,Partially Cloudy,4
+Yousri,2025-10-26,6,Neutral,Sunny,3
+Yousri,2025-10-27,3,Neutral,Sunny,3
+Yousri,2025-10-27,5,Neutral,Sunny,3
+Yousri,2025-10-27,7,Neutral,Clear,3
+Yousri,2025-10-27,6,Neutral,Clear,3
+Yousri,2025-10-28,5,Neutral,Sunny,3
+Yousri,2025-10-28,5,Neutral,Sunny,3
+Yousri,2025-10-28,7,Good,Clear,4
+Yousri,2025-10-28,6,Good,Clear,4
+Yousri,2025-10-29,4,Neutral,Sunny,3
+Yousri,2025-10-29,6,Neutral,Sunny,3
+Yousri,2025-10-29,3,Neutral,Clear,3
+Yousri,2025-10-29,5,Neutral,Clear,3
+Yousri,2025-10-30,2,Bad,Sunny,2
+Yousri,2025-10-30,2,Bad,Sunny,2
+Yousri,2025-10-30,3,Very Bad,Clear,1
+Yousri,2025-10-30,1,Very Bad,Clear,1
+Yousri,2025-10-31,3,Neutral,Sunny,3
+Yousri,2025-10-31,1,Very Bad,Sunny,1
+Yousri,2025-10-31,1,Very Bad,Clear,1
+Yousri,2025-10-31,1,Bad,Clear,2
+Yousri,2025-11-01,1,Bad,Sunny,2
+Yousri,2025-11-01,3,Bad,Cloudy,2
+Yousri,2025-11-01,3,Good,Rain,4
+Yousri,2025-11-01,3,Bad,Snow,2
+Yousri,2025-11-02,2,Neutral,Sunny,3
+Yousri,2025-11-02,3,Neutral,Sunny,3
+Yousri,2025-11-02,2,Neutral,Clear,3
+Yousri,2025-11-02,2,Bad,Clear,2
+Yousri,2025-11-03,5,Neutral,Sunny,3
+Yousri,2025-11-03,5,Neutral,Sunny,3
+Yousri,2025-11-03,6,Neutral,Partially Cloudy,3
+Yousri,2025-11-03,4,Neutral,Partially Cloudy,3

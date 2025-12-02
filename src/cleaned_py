@@ -1,0 +1,12 @@
+import pandas as pd
+
+df = pd.read_csv("src/data/FinalCode.csv")
+
+# Remove fully-empty rows
+df = df.dropna(how="all")
+
+# Remove rows where all important values are empty
+df = df.dropna(subset=["focus", "mood", "time_since_meal"], how="any")
+
+# Save cleaned file
+df.to_csv("src/data/FinalCode_cleaned.csv", index=False)
