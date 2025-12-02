@@ -1,0 +1,395 @@
+Name,Date,Time of Day,Focus,Mood,Heart Rate,Activity
+Armughan,2025-10-14,Morning,5,Very Bad,78,Commuting
+Armughan,2025-10-14,Afternoon,7,Bad,68,Studying
+Armughan,2025-10-14,Evening,8,Neutral,72,Studying
+Armughan,2025-10-14,Night,4,Good,76,Leisure
+Armughan,2025-10-16,Morning,6,Good,80,Leisure
+Armughan,2025-10-16,Afternoon,3,Neutral,104,"Leisure, Hobbies, Exercise/Training"
+Armughan,2025-10-16,Evening,7,Neutral,88,Studying
+Armughan,2025-10-16,Night,3,Bad,84,Studying
+Armughan,2025-10-17,Morning,4,Bad,96,Commuting
+Armughan,2025-10-17,Afternoon,8,Neutral,92,"Studying, Commuting"
+Armughan,2025-10-17,Evening,4,Very Good,88,Studying
+Armughan,2025-10-17,Night,3,Good,92,Leisure
+Armughan,2025-10-18,Morning,5,Neutral,84,Leisure
+Armughan,2025-10-18,Afternoon,7,Good,80,Studying
+Armughan,2025-10-18,Evening,8,Good,76,"Leisure, Cooking/Eating"
+Armughan,2025-10-18,Night,8,Neutral,80,Leisure
+Armughan,2025-10-19,Morning,5,Very Good,72,Leisure
+Armughan,2025-10-19,Afternoon,8,Good,76,Studying
+Armughan,2025-10-19,Evening,9,Neutral,80,Studying
+Armughan,2025-10-19,Night,9,Good,88,Leisure
+Armughan,2025-10-20,Morning,7,Bad,84,Studying
+Armughan,2025-10-20,Afternoon,8,Neutral,88,Studying
+Armughan,2025-10-20,Evening,4,Neutral,80,Leisure
+Armughan,2025-10-20,Night,3,Neutral,88,Leisure
+Armughan,2025-10-21,Morning,6,Neutral,80,Studying
+Armughan,2025-10-21,Afternoon,5,Neutral,92,Commuting
+Armughan,2025-10-21,Evening,7,Neutral,68,"Studying, Commuting"
+Armughan,2025-10-21,Night,6,Bad,80,"Leisure, Hobbies"
+Armughan,2025-10-22,Morning,4,Neutral,88,Leisure
+Armughan,2025-10-22,Afternoon,7,Neutral,92,Studying
+Armughan,2025-10-22,Evening,3,Neutral,80,Studying
+Armughan,2025-10-22,Night,8,Bad,72,Studying
+Armughan,2025-10-23,Morning,4,Neutral,80,Studying
+Armughan,2025-10-23,Afternoon,8,Bad,84,Studying
+Armughan,2025-10-23,Evening,9,Very Bad,76,Studying
+Armughan,2025-10-23,Night,10,Very Bad,76,Studying
+Armughan,2025-10-25,Morning,6,Very Good,72,Leisure
+Armughan,2025-10-25,Afternoon,8,Very Good,80,Leisure
+Armughan,2025-10-25,Evening,3,Good,72,Leisure
+Armughan,2025-10-25,Night,,Neutral,,Studying
+Armughan,2025-10-26,Afternoon,8,Bad,92,Studying
+Armughan,2025-10-26,Evening,4,Bad,64,"Studying, Leisure"
+Armughan,2025-10-26,Night,7,Very Bad,64,Leisure
+Armughan,2025-10-27,Morning,4,Bad,80,Leisure
+Armughan,2025-10-27,Afternoon,5,Neutral,76,Studying
+Armughan,2025-10-28,Night,1,Neutral,72,Leisure
+Armughan,2025-10-29,Morning,4,Neutral,88,Leisure
+Armughan,2025-10-29,Afternoon,5,Neutral,80,Studying
+Armughan,2025-10-29,Evening,8,Neutral,76,"Studying, Leisure"
+Armughan,2025-10-29,Night,4,Neutral,76,Studying
+Armughan,2025-10-30,Morning,5,Neutral,88,Commuting
+Armughan,2025-10-30,Afternoon,7,Neutral,84,Studying
+Armughan,2025-10-30,Evening,7,Good,76,"Commuting, Studying"
+Armughan,2025-10-30,Night,3,Good,72,Leisure
+Armughan,2025-10-31,Morning,4,Neutral,84,Commuting
+Armughan,2025-10-31,Afternoon,6,Neutral,88,Studying
+Armughan,2025-10-31,Evening,8,Good,92,"Commuting, Studying"
+Armughan,2025-10-31,Night,8,Very Good,72,Leisure
+Armughan,2025-11-01,Morning,5,Neutral,80,Leisure
+Armughan,2025-11-01,Afternoon,7,Good,82,Leisure
+Armughan,2025-11-01,Evening,8,Good,68,"Studying, Leisure"
+Armughan,2025-11-01,Night,4,Bad,68,Studying
+Armughan,2025-11-02,Morning,3,Neutral,76,Leisure
+Armughan,2025-11-02,Afternoon,4,Neutral,80,"Studying, Hobbies"
+Armughan,2025-11-02,Evening,6,Bad,88,Leisure
+Armughan,2025-11-02,Night,8,Very Bad,76,Studying
+Armughan,2025-11-03,Morning,5,Neutral,88,Leisure
+Armughan,2025-11-03,Afternoon,8,Good,76,Studying
+Armughan,2025-11-03,Evening,8,Good,64,Studying
+Armughan,2025-11-03,Night,5,Very Good,72,Studying
+Austin,2025-10-14,Morning,3,Good,68,Leisure
+Austin,2025-10-14,Afternoon,7,Neutral,82,Leisure
+Austin,2025-10-15,Morning,4,Bad,63,Leisure
+Austin,2025-10-15,Afternoon,5,Neutral,100,Studying
+Austin,2025-10-15,Evening,7,Neutral,104,"Studying, Exercise/Training"
+Austin,2025-10-15,Night,2,Good,88,Leisure
+Austin,2025-10-16,Morning,4,Good,64,Studying
+Austin,2025-10-16,Afternoon,5,Very Good,91,Leisure
+Austin,2025-10-16,Evening,4,Neutral,98,Studying
+Austin,2025-10-16,Night,7,Good,89,Studying
+Austin,2025-10-17,Morning,6,Neutral,91,Leisure
+Austin,2025-10-17,Afternoon,3,Good,85,Exercise/Training
+Austin,2025-10-17,Evening,7,Very Good,82,Studying
+Austin,2025-10-17,Night,6,Good,88,Leisure
+Austin,2025-10-18,Morning,3,Neutral,92,Leisure
+Austin,2025-10-19,Morning,1,Bad,80,Leisure
+Austin,2025-10-19,Afternoon,4,Neutral,95,Studying
+Austin,2025-10-19,Evening,7,Neutral,86,Studying
+Austin,2025-10-19,Night,4,Good,82,Studying
+Austin,2025-10-20,Morning,5,Good,65,"Studying, Leisure "
+Austin,2025-10-20,Afternoon,7,Neutral,87,"Socializing, Studying, Leisure, Commuting"
+Austin,2025-10-20,Evening,7,Very Good,90,"Studying, Exercise/Training"
+Austin,2025-10-20,Night,9,Very Good,83,Leisure
+Austin,2025-10-21,Morning,2,Neutral,65,"Studying, Cooking/Eating"
+Austin,2025-10-21,Afternoon,8,Good,94,"Studying, Hobbies"
+Austin,2025-10-21,Evening,3,Bad,85,"Studying, Hobbies, Leisure"
+Austin,2025-10-21,Night,7,Neutral,74,"Studying, Socializing, Leisure"
+Austin,2025-10-22,Morning,3,Good,89,"Studying, Leisure, Commuting"
+Austin,2025-10-22,Afternoon,6,Good,83,Studying
+Austin,2025-10-22,Evening,8,Very Good,99,"Studying, Leisure, Hobbies, Exercise/Training"
+Austin,2025-10-22,Night,4,Neutral,81,"Studying, Leisure"
+Austin,2025-10-23,Morning,8,Good,83,"Leisure, Studying, Commuting"
+Austin,2025-10-23,Afternoon,6,Neutral,94,"Studying, Commuting, Leisure"
+Austin,2025-10-23,Evening,4,Bad,82,"Studying, Leisure, Cooking/Eating"
+Austin,2025-10-23,Night,6,Good,76,"Socializing, Exercise/Training, Studying, Hobbies"
+Austin,2025-10-24,Morning,4,Neutral,65,Leisure
+Austin,2025-10-24,Afternoon,9,Good,94,"Studying, Leisure"
+Austin,2025-10-24,Evening,6,Good,91,"Leisure, Hobbies, Commuting"
+Austin,2025-10-24,Night,8,Good,82,"Socializing, Cooking/Eating, Leisure"
+Austin,2025-10-25,Morning,4,Neutral,78,"Studying, Exercise/Training, Leisure"
+Austin,2025-10-25,Afternoon,6,Good,85,"Hobbies, Leisure"
+Austin,2025-10-25,Evening,7,Very Good,79,"Socializing, Leisure, Cooking/Eating"
+Austin,2025-10-25,Night,3,Bad,90,"Socializing, Cooking/Eating"
+Austin,2025-10-26,Morning,3,Neutral,74,Socializing
+Austin,2025-10-26,Afternoon,5,Neutral,84,"Studying, Leisure, Hobbies"
+Austin,2025-10-26,Evening,7,Good,92,"Studying, Exercise/Training, Hobbies, Leisure"
+Austin,2025-10-27,Morning,6,Neutral,65,"Studying, Leisure "
+Austin,2025-10-27,Evening,7,Good,89,"Studying, Leisure, Socializing, Hobbies"
+Austin,2025-10-27,Night,8,Very Good,81,"Studying, Leisure, Hobbies"
+Austin,2025-10-28,Morning,8,Good,82,Hobbies
+Austin,2025-10-28,Afternoon,6,Good,91,"Studying, Cooking/Eating, Exercise/Training"
+Austin,2025-10-28,Evening,5,Neutral,86,"Studying, Cooking/Eating, Hobbies"
+Austin,2025-10-28,Night,8,Good,78,Studying
+Austin,2025-10-29,Morning,9,Very Good,83,"Hobbies, Studying"
+Austin,2025-10-29,Afternoon,8,Very Good,95,Hobbies
+Austin,2025-10-29,Evening,10,Very Good,83,Hobbies
+Austin,2025-10-29,Night,10,Good,82,Hobbies
+Austin,2025-10-30,Morning,3,Bad,76,"Leisure, Studying, Hobbies"
+Austin,2025-10-30,Afternoon,4,Neutral,98,"Exercise/Training, Studying"
+Austin,2025-11-02,Morning,5,Bad,81,"Socializing, Commuting, Exercise/Training "
+Austin,2025-11-02,Afternoon,3,Neutral,87,Leisure
+Austin,2025-11-02,Evening,6,Good,91,Studying
+Austin,2025-11-02,Night,4,Good,76,Leisure
+Austin,2025-11-03,Morning,7,Good,75,"Hobbies, Leisure, Studying"
+Austin,2025-11-03,Afternoon,8,Very Good,89,"Hobbies, Leisure, Studying"
+Austin,2025-11-03,Evening,10,Good,86,Exercise/Training
+Austin,2025-11-03,Night,5,Neutral,76,"Studying, Hobbies, Socializing"
+Jack,2025-10-14,Morning,6,Good,92,Exercise/Training
+Jack,2025-10-14,Afternoon,5,Neutral,80,Working
+Jack,2025-10-14,Evening,7,Good,86,Socializing
+Jack,2025-10-14,Night,6,Good,70,Studying
+Jack,2025-10-15,Morning,4,Good,70,Leisure
+Jack,2025-10-15,Afternoon,7,Neutral,82,Working
+Jack,2025-10-15,Evening,8,Very Good,100,Exercise/Training
+Jack,2025-10-15,Night,6,Good,72,Studying
+Jack,2025-10-16,Morning,4,Neutral,68,Cooking/Eating
+Jack,2025-10-16,Afternoon,6,Bad,85,Working
+Jack,2025-10-16,Evening,5,Neutral,74,Leisure
+Jack,2025-10-16,Night,4,Neutral,66,Studying
+Jack,2025-10-17,Morning,5,Neutral,72,Studying
+Jack,2025-10-17,Afternoon,6,Good,82,Working
+Jack,2025-10-17,Evening,7,Good,80,Leisure
+Jack,2025-10-17,Night,5,Neutral,68,Hobbies
+Jack,2025-10-18,Morning,6,Good,95,Exercise/Training
+Jack,2025-10-18,Afternoon,7,Very Good,78,Leisure
+Jack,2025-10-18,Evening,8,Very Good,90,Socializing
+Jack,2025-10-18,Night,6,Good,72,Leisure
+Jack,2025-10-19,Morning,5,Neutral,70,Hobbies
+Jack,2025-10-19,Afternoon,5,Neutral,76,Studying
+Jack,2025-10-19,Evening,6,Good,78,Leisure
+Jack,2025-10-19,Night,5,Neutral,70,Studying
+Jack,2025-10-20,Morning,4,Neutral,72,Commuting
+Jack,2025-10-20,Afternoon,6,Good,82,Working
+Jack,2025-10-20,Evening,6,Good,76,Studying
+Jack,2025-10-20,Night,5,Neutral,68,Leisure
+Jack,2025-10-21,Morning,5,Neutral,90,Exercise/Training
+Jack,2025-10-21,Afternoon,6,Good,80,Working
+Jack,2025-10-21,Evening,7,Good,78,Hobbies
+Jack,2025-10-21,Night,5,Neutral,70,Studying
+Jack,2025-10-22,Morning,6,Good,72,Cooking/Eating
+Jack,2025-10-22,Afternoon,6,Good,84,Working
+Jack,2025-10-22,Evening,7,Very Good,88,Socializing
+Jack,2025-10-22,Night,6,Good,72,Leisure
+Jack,2025-10-23,Morning,4,Neutral,72,Studying
+Jack,2025-10-23,Afternoon,5,Neutral,78,Working
+Jack,2025-10-23,Evening,6,Good,80,Leisure
+Jack,2025-10-23,Night,5,Neutral,70,Hobbies
+Jack,2025-10-24,Morning,5,Neutral,92,Exercise/Training
+Jack,2025-10-24,Afternoon,7,Good,84,Working
+Jack,2025-10-24,Evening,6,Good,78,Leisure
+Jack,2025-10-24,Night,4,Neutral,68,Studying
+Jack,2025-10-25,Morning,6,Good,76,Leisure
+Jack,2025-10-25,Afternoon,7,Very Good,80,Hobbies
+Jack,2025-10-25,Evening,8,Very Good,92,Socializing
+Jack,2025-10-25,Night,6,Good,72,Leisure
+Jack,2025-10-26,Morning,5,Neutral,72,Studying
+Jack,2025-10-26,Afternoon,6,Good,78,Commuting
+Jack,2025-10-26,Evening,6,Good,80,Leisure
+Jack,2025-10-26,Night,5,Neutral,70,Studying
+Jack,2025-10-27,Morning,4,Neutral,74,Commuting
+Jack,2025-10-27,Afternoon,5,Neutral,80,Working
+Jack,2025-10-27,Evening,6,Good,76,Studying
+Jack,2025-10-27,Night,5,Neutral,70,Leisure
+Jack,2025-10-28,Morning,6,Good,72,Cooking/Eating
+Jack,2025-10-28,Afternoon,6,Good,84,Working
+Jack,2025-10-28,Evening,7,Good,80,Hobbies
+Jack,2025-10-28,Night,6,Good,72,Leisure
+Jack,2025-10-29,Morning,5,Neutral,72,Studying
+Jack,2025-10-29,Afternoon,6,Good,82,Working
+Jack,2025-10-29,Evening,6,Good,94,Exercise/Training
+Jack,2025-10-29,Night,5,Neutral,70,Leisure
+Jack,2025-10-30,Morning,4,Neutral,72,Commuting
+Jack,2025-10-30,Afternoon,5,Neutral,78,Working
+Jack,2025-10-30,Evening,6,Good,80,Leisure
+Jack,2025-10-30,Night,4,Neutral,68,Studying
+Jack,2025-10-31,Morning,6,Good,96,Exercise/Training
+Jack,2025-10-31,Afternoon,7,Very Good,84,Working
+Jack,2025-10-31,Evening,8,Very Good,98,Socializing
+Jack,2025-10-31,Night,6,Good,74,Leisure
+Jack,2025-11-01,Morning,5,Neutral,72,Hobbies
+Jack,2025-11-01,Afternoon,6,Good,78,Leisure
+Jack,2025-11-01,Evening,7,Good,88,Socializing
+Jack,2025-11-01,Night,5,Neutral,70,Leisure
+Jack,2025-11-02,Morning,5,Neutral,72,Studying
+Jack,2025-11-02,Afternoon,5,Neutral,78,Working
+Jack,2025-11-02,Evening,6,Good,80,Hobbies
+Jack,2025-11-02,Night,4,Neutral,68,Leisure
+Jack,2025-11-03,Morning,6,Good,92,Exercise/Training
+Jack,2025-11-03,Afternoon,6,Good,82,Working
+Jack,2025-11-03,Evening,7,Good,76,Studying
+Jack,2025-11-03,Night,5,Neutral,70,Leisure
+Kirthik,2025-10-13,Morning,7,Good,94,Leisure
+Kirthik,2025-10-13,Afternoon,4,Good,80,Studying
+Kirthik,2025-10-13,Evening,7,Good,102,Commuting
+Kirthik,2025-10-13,Night,9,Very Good,83,Hobbies
+Kirthik,2025-10-14,Morning,6,Neutral,105,Exercise/Training
+Kirthik,2025-10-14,Afternoon,10,Very Good,92,Working
+Kirthik,2025-10-14,Evening,4,Neutral,73,Working
+Kirthik,2025-10-14,Night,10,Very Good,114,Exercise/Training
+Kirthik,2025-10-15,Morning,5,Neutral,79,Socializing
+Kirthik,2025-10-15,Afternoon,7,Good,84,Studying
+Kirthik,2025-10-15,Evening,5,Neutral,100,Studying
+Kirthik,2025-10-15,Night,6,Neutral,64,Leisure
+Kirthik,2025-10-16,Morning,9,Bad,72,Leisure
+Kirthik,2025-10-16,Afternoon,5,Very Good,82,Working
+Kirthik,2025-10-16,Evening,7,Good,102,Exercise/Training
+Kirthik,2025-10-16,Night,5,Neutral,82,Working
+Kirthik,2025-10-17,Morning,8,Very Good,72,Socializing
+Kirthik,2025-10-17,Afternoon,6,Neutral,90,Working
+Kirthik,2025-10-17,Evening,6,Very Good,70,Cooking/Eating
+Kirthik,2025-10-17,Night,7,Bad,72,Hobbies
+Kirthik,2025-10-18,Morning,10,Very Good,82,"Hobbies, Commuting"
+Kirthik,2025-10-18,Afternoon,7,Good,81,"Socializing, Studying"
+Kirthik,2025-10-18,Evening,6,Very Bad,65,Working
+Kirthik,2025-10-18,Night,7,Neutral,72,Leisure
+Kirthik,2025-10-19,Morning,8,Good,78,Leisure
+Kirthik,2025-10-19,Afternoon,6,Neutral,88,Working
+Kirthik,2025-10-19,Evening,7,Good,102,Commuting
+Kirthik,2025-10-19,Night,8,Very Good,70,Socializing
+Kirthik,2025-10-20,Morning,4,Neutral,82,Leisure
+Kirthik,2025-10-20,Afternoon,2,Very Bad,76,Socializing
+Kirthik,2025-10-20,Evening,3,Bad,118,Exercise/Training
+Kirthik,2025-10-20,Night,8,Good,65,Studying
+Kirthik,2025-10-21,Morning,7,Good,80,Leisure
+Kirthik,2025-10-21,Afternoon,8,Very Good,90,Studying
+Kirthik,2025-10-21,Evening,6,Neutral,95,Socializing
+Kirthik,2025-10-21,Night,9,Neutral,75,Leisure
+Kirthik,2025-10-22,Morning,1,Bad,85,Working
+Kirthik,2025-10-22,Afternoon,4,Neutral,92,Studying
+Kirthik,2025-10-22,Evening,6,Good,88,Leisure
+Kirthik,2025-10-22,Night,10,Very Good,58,Hobbies
+Kirthik,2025-10-23,Morning,10,Neutral,76,Leisure
+Kirthik,2025-10-23,Afternoon,8,Neutral,84,Studying
+Kirthik,2025-10-23,Evening,5,Good,88,Commuting
+Kirthik,2025-10-23,Night,8,Neutral,62,Leisure
+Kirthik,2025-10-24,Morning,6,Good,78,Leisure
+Kirthik,2025-10-24,Afternoon,7,Neutral,90,Studying
+Kirthik,2025-10-24,Evening,5,Neutral,82,Cooking/Eating
+Kirthik,2025-10-24,Night,8,Good,64,Hobbies
+Kirthik,2025-10-25,Morning,9,Very Good,132,Working
+Kirthik,2025-10-25,Afternoon,6,Neutral,88,Studying
+Kirthik,2025-10-25,Evening,7,Good,104,Exercise/Training
+Kirthik,2025-10-25,Night,8,Neutral,70,Socializing
+Kirthik,2025-10-26,Morning,5,Neutral,86,Studying
+Kirthik,2025-10-26,Afternoon,6,Good,90,Hobbies
+Kirthik,2025-10-26,Evening,4,Bad,78,Working
+Kirthik,2025-10-26,Night,7,Neutral,62,Studying
+Kirthik,2025-10-27,Morning,8,Good,102,Exercise/Training
+Kirthik,2025-10-27,Afternoon,7,Neutral,88,Leisure
+Kirthik,2025-10-27,Evening,6,Neutral,84,Working
+Kirthik,2025-10-27,Night,9,Good,60,Studying
+Kirthik,2025-10-28,Morning,6,Neutral,82,Socializing
+Kirthik,2025-10-28,Afternoon,5,Bad,88,Leisure
+Kirthik,2025-10-28,Evening,7,Good,128,Studying
+Kirthik,2025-10-28,Night,8,Neutral,64,Exercise/Training
+Kirthik,2025-10-29,Morning,7,Good,86,Hobbies
+Kirthik,2025-10-29,Afternoon,8,Very Good,98,Studying
+Kirthik,2025-10-29,Evening,6,Neutral,82,Working
+Kirthik,2025-10-29,Night,9,Good,62,Cooking/Eating
+Kirthik,2025-10-30,Morning,5,Neutral,82,Leisure
+Kirthik,2025-10-30,Afternoon,7,Good,90,Studying
+Kirthik,2025-10-30,Evening,6,Neutral,84,Commuting
+Kirthik,2025-10-30,Night,8,Very Good,72,Leisure
+Kirthik,2025-10-31,Morning,9,Very Good,140,Studying
+Kirthik,2025-10-31,Afternoon,6,Neutral,88,Commuting
+Kirthik,2025-10-31,Evening,7,Good,102,Leisure
+Kirthik,2025-10-31,Night,8,Neutral,68,Exercise/Training
+Kirthik,2025-11-01,Morning,7,Good,84,Studying
+Kirthik,2025-11-01,Afternoon,6,Neutral,86,Leisure
+Kirthik,2025-11-01,Evening,5,Neutral,78,Studying
+Kirthik,2025-11-01,Night,8,Good,65,Leisure
+Kirthik,2025-11-02,Morning,6,Neutral,82,Socializing
+Kirthik,2025-11-02,Afternoon,7,Good,90,Working
+Kirthik,2025-11-02,Evening,6,Neutral,96,Studying
+Kirthik,2025-11-02,Night,9,Very Good,58,Commuting
+Kirthik,2025-11-03,Morning,8,Good,98,Studying
+Kirthik,2025-11-03,Afternoon,7,Neutral,88,Commuting
+Kirthik,2025-11-03,Evening,6,Neutral,84,Studying
+Kirthik,2025-11-03,Night,9,Good,62,Leisure
+Yousri,2025-10-13,Morning,3,Neutral,65,Studying
+Yousri,2025-10-13,Afternoon,5,Good,80,Studying
+Yousri,2025-10-13,Evening,4,Good,101,Studying
+Yousri,2025-10-13,Night,2,Neutral,81,Studying
+Yousri,2025-10-14,Morning,3,Bad,94,Studying
+Yousri,2025-10-14,Afternoon,5,Neutral,93,Studying
+Yousri,2025-10-14,Evening,5,Neutral,61,Studying
+Yousri,2025-10-14,Night,3,Neutral,84,Studying
+Yousri,2025-10-15,Morning,3,Bad,82,Leisure
+Yousri,2025-10-15,Afternoon,6,Good,73,Studying
+Yousri,2025-10-15,Evening,4,Neutral,77,Studying
+Yousri,2025-10-15,Night,5,Neutral,98,Studying
+Yousri,2025-10-16,Morning,6,Good,81,Socializing
+Yousri,2025-10-16,Afternoon,7,Good,83,Leisure
+Yousri,2025-10-16,Evening,8,Very Good,64,Socializing
+Yousri,2025-10-16,Night,8,Very Good,89,Leisure
+Yousri,2025-10-17,Morning,6,Neutral,80,Studying
+Yousri,2025-10-17,Afternoon,7,Good,83,Leisure
+Yousri,2025-10-17,Evening,6,Neutral,67,Leisure
+Yousri,2025-10-17,Night,8,Good,102,Socializing
+Yousri,2025-10-18,Morning,6,Neutral,74,Leisure
+Yousri,2025-10-18,Afternoon,5,Neutral,70,Leisure
+Yousri,2025-10-18,Evening,5,Good,97,Leisure
+Yousri,2025-10-18,Night,4,Good,62,Leisure
+Yousri,2025-10-19,Morning,4,Neutral,102,Leisure
+Yousri,2025-10-19,Afternoon,5,Very Good,80,Socializing
+Yousri,2025-10-19,Evening,3,Very Good,98,Socializing
+Yousri,2025-10-19,Night,6,Good,100,Socializing
+Yousri,2025-10-20,Morning,4,Neutral,69,Leisure
+Yousri,2025-10-20,Afternoon,5,Neutral,68,Studying
+Yousri,2025-10-20,Evening,6,Neutral,94,Studying
+Yousri,2025-10-20,Night,7,Good,86,Leisure
+Yousri,2025-10-21,Morning,5,Bad,61,Cooking/Eating
+Yousri,2025-10-21,Afternoon,6,Neutral,60,Studying
+Yousri,2025-10-21,Evening,6,Good,64,Studying
+Yousri,2025-10-21,Night,6,Neutral,84,"Studying, Cooking/Eating, Leisure"
+Yousri,2025-10-22,Morning,5,Neutral,87,Studying
+Yousri,2025-10-22,Afternoon,6,Neutral,74,Studying
+Yousri,2025-10-22,Evening,8,Good,91,Socializing
+Yousri,2025-10-22,Night,5,Good,80,Socializing
+Yousri,2025-10-23,Morning,4,Neutral,81,Leisure
+Yousri,2025-10-23,Afternoon,4,Neutral,102,Leisure
+Yousri,2025-10-23,Evening,7,Neutral,100,Studying
+Yousri,2025-10-23,Night,5,Neutral,61,"Studying, Leisure"
+Yousri,2025-10-24,Morning,3,Bad,79,Leisure
+Yousri,2025-10-24,Afternoon,5,Bad,77,Studying
+Yousri,2025-10-24,Evening,5,Neutral,88,Studying
+Yousri,2025-10-24,Night,4,Neutral,62,Leisure
+Yousri,2025-10-25,Morning,7,Neutral,89,Studying
+Yousri,2025-10-25,Afternoon,7,Neutral,104,Studying
+Yousri,2025-10-25,Evening,8,Good,84,Studying
+Yousri,2025-10-25,Night,7,Good,78,"Socializing, Studying, Cooking/Eating"
+Yousri,2025-10-26,Morning,6,Neutral,61,Studying
+Yousri,2025-10-27,Morning,3,Neutral,99,Leisure
+Yousri,2025-10-27,Afternoon,5,Neutral,62,Studying
+Yousri,2025-10-27,Evening,7,Neutral,103,Studying
+Yousri,2025-10-27,Night,6,Neutral,100,"Studying, Leisure, Cooking/Eating"
+Yousri,2025-10-28,Morning,5,Neutral,62,Studying
+Yousri,2025-10-28,Afternoon,5,Neutral,104,Studying
+Yousri,2025-10-28,Evening,7,Good,99,Leisure
+Yousri,2025-10-28,Night,6,Good,77,Leisure
+Yousri,2025-10-29,Morning,4,Neutral,81,Leisure
+Yousri,2025-10-29,Afternoon,6,Neutral,65,"Leisure, Studying"
+Yousri,2025-10-29,Evening,3,Neutral,62,Studying
+Yousri,2025-10-29,Night,5,Neutral,99,Studying
+Yousri,2025-10-30,Morning,2,Bad,89,Leisure
+Yousri,2025-10-30,Afternoon,2,Bad,103,Leisure
+Yousri,2025-10-30,Evening,3,Very Bad,98,Leisure
+Yousri,2025-10-30,Night,1,Very Bad,63,Leisure
+Yousri,2025-10-31,Morning,3,Neutral,94,Leisure
+Yousri,2025-10-31,Afternoon,1,Very Bad,66,Leisure
+Yousri,2025-10-31,Evening,1,Very Bad,91,Leisure
+Yousri,2025-10-31,Night,1,Bad,86,Leisure
+Yousri,2025-11-01,Morning,1,Bad,60,Leisure
+Yousri,2025-11-01,Afternoon,3,Bad,64,Leisure
+Yousri,2025-11-01,Evening,3,Good,84,Leisure
+Yousri,2025-11-01,Night,3,Bad,104,Leisure
+Yousri,2025-11-02,Morning,2,Neutral,99,Leisure
+Yousri,2025-11-02,Afternoon,3,Neutral,71,Leisure
+Yousri,2025-11-02,Evening,2,Neutral,81,Leisure
+Yousri,2025-11-02,Night,2,Bad,77,Leisure
+Yousri,2025-11-03,Morning,5,Neutral,62,Leisure
+Yousri,2025-11-03,Afternoon,5,Neutral,80,"Studying, Leisure"
+Yousri,2025-11-03,Evening,6,Neutral,73,"Studying, Leisure"
+Yousri,2025-11-03,Night,4,Neutral,67,"Studying, Leisure"
