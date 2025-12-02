@@ -35,8 +35,7 @@ display(
       }),
     ],
   })
-    );
-    ```
+);
+```
 
 This chart displays the Pearson correlation (r) between Mood and Focus, categorized by weather type. Higher values (near 1.00) indicate a strong link where focus mirrors mood; lower values (near 0.00) indicate that mood and focus are decoupled.
-
