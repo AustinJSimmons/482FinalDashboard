@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: Mood-Focus Effect Visualization
+title: Mood-Focus Visualization 
 toc: false
 ---
 
@@ -55,8 +55,6 @@ const filteredData = data.filter(d =>
 ```
 
 ```js
-// 1) Averages per Time of Day × Activity (no Name)
-//    → used when Colour by Person = OFF
 const groupedData = (() => {
   const agg = new Map();
 
@@ -146,8 +144,7 @@ y: {
   </div>
 
   <div class='card grid-colspan-2'>
-    ${resize((width) =>
-      moodEffectChart(filteredData, {width,colorByPerson}))}
+    ${resize(width => moodEffectChart(groupedData, {width}))}
   </div>
 </div>
 
