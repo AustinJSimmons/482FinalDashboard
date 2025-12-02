@@ -31,6 +31,8 @@ function heartRateChart(data, { width, metric, colorByPerson, points }) {
   return Plot.plot({
     title: `Heart Rate vs. ${metric}`,
     subtitle: "Distribution of heart rate across different states",
+    width,
+    height: 800,
     marginLeft: 60,
     grid: true,
     y: {
@@ -168,6 +170,7 @@ const filtered =
 function mealChart(filtered, { width, metric, colorByPerson, person }) {
   return Plot.plot({
     width,
+    height: 300,
     title: `How Time Since Meal Influences ${metric} Across the Day — ${person}`,
     subtitle:
       "Comparison of hunger effects by time of day, with median (gold) and mean (white) lines for clarity",
@@ -301,6 +304,8 @@ function activityChart(
   { width, selectedActivites, showPoints, colorByPerson, filtered }
 ) {
   return Plot.plot({
+    width,
+    height: 300,
     title: "Mood–Focus Relationship by Activity",
     grid: true,
     x: {
@@ -414,6 +419,8 @@ const filteredData = data4.filter(
 ```js
 function moodEffectChart(filtered, { width, colorByPerson }) {
   return Plot.plot({
+    width,
+    height: 250,
     title: "How Mood Affects Focus",
     subtitle: "Positive = Mood boosts focus; Negative = Mood drags it down",
     marginLeft: 60,
@@ -496,20 +503,24 @@ function moodEffectChart(filtered, { width, colorByPerson }) {
     </div>
 </div>
 
-<div class='grid grid-cols-2' style='margin: 0; grid-auto-rows: 0fr'>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <div style="display: flex; flex-direction: column; gap: 1rem;">
     <div class='card'>
       ${resize((width) => heartRateChart(data, {width, metric: metricValue, colorByPerson: colorValue, points: pointValue}))}
     </div>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 1rem;">
     <div class='card'>
       ${resize((width) => weatherImpactChart(weatherData, {width}))}
     </div>
     <div class='card'>
       ${resize((width) => activityChart(filteredWithJitter, {width, selectedActivites: selectedActivitesValue, showPoints: showPointsValue, colorByPerson: colorValue3, filtered: filtered2}))}
     </div>
-    <div class='card'>
-      ${resize((width) => moodEffectChart(filteredData, {width, colorByPerson: colorByPerson}))}
-    </div>
-    <div class='card grid-colspan-2'>
-      ${resize((width) => mealChart(filtered, {width, metric: metricValue2, colorByPerson: colorValue2, person: personValue}))}
-    </div>
+  </div>
+</div>
+<div class='card' style="margin-top: 1rem;">
+  ${resize((width) => moodEffectChart(filteredData, {width, colorByPerson: colorByPerson}))}
+</div>
+<div class='card' style="margin-top: 1rem;">
+  ${resize((width) => mealChart(filtered, {width, metric: metricValue2, colorByPerson: colorValue2, person: personValue}))}
 </div>
