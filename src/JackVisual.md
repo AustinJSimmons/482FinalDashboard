@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: Mood-Focus Visualization 
+title: Mood-Focus Effect Visualization 
 toc: false
 ---
 
@@ -11,8 +11,8 @@ const raw = await FileAttachment("data/hr_focus_mood_Jack.csv").csv({typed: true
 const moodOrder = ["Very Bad", "Bad", "Neutral", "Good", "Very Good"];
 
 const data = raw.map(d => {
-  const moodIndex = moodOrder.indexOf(d.Mood);   // 0–4
-  const moodScore10 = (moodIndex + 1) * 2;       // 2,4,6,8,10
+  const moodIndex = moodOrder.indexOf(d.Mood);  
+  const moodScore10 = (moodIndex + 1) * 2;     
 
   return {
     ...d,
@@ -45,7 +45,6 @@ const selectedTime = Generators.input(timeInput);
 
 ```
 ```js
-// Filter raw rows based on controls
 const filteredData = data.filter(d =>
   (selectedActivity === "(All Activities)" || d.mainActivity === selectedActivity) &&
   (selectedName === "(All People)" || d.Name === selectedName) &&
@@ -100,10 +99,10 @@ function moodEffectChart(data, {width}) {
     marginBottom: 60,
     grid: true,
     x: { label: "Time of Day" },
-y: {
-  label: "Mood–Focus Effect (Focus − Mood Score)",
-  domain: [-5, 5]
-},
+    y: {
+      label: "Mood–Focus Effect (Focus − Mood Score)",
+      domain: [-5, 5]
+    },
     color: { legend: true },
     marks: [
       Plot.dot(
@@ -129,6 +128,7 @@ y: {
     ]
   });
 }
+
 
 
 ```

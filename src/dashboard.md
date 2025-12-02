@@ -415,59 +415,81 @@ const filteredData = data4.filter(
     (selectedTime === "(All Times)" || d["Time of Day"] === selectedTime)
 );
 ```
+```js
+const groupedData = (() => {
+  const agg = new Map();
+
+  for (const d of filteredData) {
+    const time = d["Time of Day"];
+    const activity = d.mainActivity;
+    if (!time || !activity) continue;
+
+    const key = `${time}|||${activity}`;
+    const prev = agg.get(key);
+    if (prev) {
+      prev.sum += d.moodFocusEffect;
+      prev.count += 1;
+    } else {
+      agg.set(key, {
+        "Time of Day": time,
+        mainActivity: activity,
+        sum: d.moodFocusEffect,
+        count: 1
+      });
+    }
+  }
+
+  return Array.from(agg.values()).map(d => ({
+    "Time of Day": d["Time of Day"],
+    mainActivity: d.mainActivity,
+    moodFocusEffect: d.sum / d.count
+  }));
+})();
+
+
+```
 
 ```js
-function moodEffectChart(filtered, { width, colorByPerson }) {
+function moodEffectChart(data, {width}) {
   return Plot.plot({
+    title: "How Mood Affects Focus (Averaged)",
+    subtitle: "Each dot = average mood-focus effect for that person/activity/time",
     width,
-    height: 250,
-    title: "How Mood Affects Focus",
-    subtitle: "Positive = Mood boosts focus; Negative = Mood drags it down",
+    height: 500,
     marginLeft: 60,
     marginBottom: 60,
     grid: true,
     x: { label: "Time of Day" },
     y: {
       label: "Mood–Focus Effect (Focus − Mood Score)",
-      domain: [-5, 10],
+      domain: [-5, 5]
     },
     color: { legend: true },
     marks: [
       Plot.dot(
-        filtered.map((d) => ({
+        data.map(d => ({
           ...d,
-          jitteredEffect: d.moodFocusEffect + (Math.random() - 0.5) * 0.2,
+          jitteredEffect: d.moodFocusEffect + (Math.random() - 0.5) * 0.15
         })),
         {
           x: "Time of Day",
           y: "jitteredEffect",
-          fill: colorByPerson ? "Name" : "mainActivity",
-          r: 5,
+          fill: "mainActivity",
+          r: 7,
           tip: true,
           stroke: "white",
-          strokeWidth: 0.5,
+          strokeWidth: 0.8
         }
-      ),
-      Plot.ruleY(
-        filtered,
-        Plot.groupZ(
-          { y: "mean" },
-          {
-            y: "moodFocusEffect",
-            stroke: "red",
-            strokeOpacity: 0.5,
-            strokeWidth: 2,
-          }
-        )
       ),
       Plot.ruleY([0], {
         stroke: "black",
         strokeOpacity: 0.3,
-        strokeDasharray: "4",
-      }),
-    ],
+        strokeDasharray: "4"
+      })
+    ]
   });
 }
+
 ```
 
 # Mood & Focus Analysis
@@ -519,7 +541,7 @@ function moodEffectChart(filtered, { width, colorByPerson }) {
   </div>
 </div>
 <div class='card' style="margin-top: 1rem;">
-  ${resize((width) => moodEffectChart(filteredData, {width, colorByPerson: colorByPerson}))}
+  ${resize((width) => moodEffectChart(groupedData, {width}))}
 </div>
 <div class='card' style="margin-top: 1rem;">
   ${resize((width) => mealChart(filtered, {width, metric: metricValue2, colorByPerson: colorValue2, person: personValue}))}
