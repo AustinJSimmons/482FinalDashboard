@@ -6,7 +6,7 @@ toc: false
 
 
 ```js
-const raw = await FileAttachment("data/hr_focus_mood.csv").csv({typed: true});
+const raw = await FileAttachment("data/hr_focus_mood_Jack.csv").csv({typed: true});
 
 const moodOrder = ["Very Bad", "Bad", "Neutral", "Good", "Very Good"];
 
@@ -144,8 +144,7 @@ y: {
   </div>
 
   <div class='card grid-colspan-2'>
-    ${resize((width) =>
-      moodEffectChart(filteredData, {width}))}
+    ${resize(width => moodEffectChart(groupedData, {width}))}
   </div>
 </div>
 
