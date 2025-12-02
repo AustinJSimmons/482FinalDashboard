@@ -362,12 +362,18 @@ function activityChart(
 ```
 
 ```js
-const data4 = data.map((d) => ({
-  ...d,
-  moodScore: moodOrder.indexOf(d.Mood) + 1,
-  moodFocusEffect: d.Focus - (moodOrder.indexOf(d.Mood) + 1),
-  mainActivity: d.Activity.split(",")[0].trim(),
-}));
+const data4 = data.map((d) => {
+  const moodIndex = moodOrder.indexOf(d.Mood); // 0–4
+  const moodScore10 = (moodIndex + 1) * 2;      // 2–10 scale
+
+  return {
+    ...d,
+    moodScore: moodScore10,
+    moodFocusEffect: d.Focus - moodScore10,
+    mainActivity: d.Activity.split(",")[0].trim(),
+  };
+});
+
 
 const allActivities = Array.from(
   new Set(data4.map((d) => d.mainActivity))
@@ -460,10 +466,10 @@ function moodEffectChart(data, {width}) {
     marginBottom: 60,
     grid: true,
     x: { label: "Time of Day" },
-    y: {
-      label: "Mood–Focus Effect (Focus − Mood Score)",
-      domain: [-5, 5]
-    },
+y: {
+  label: "Mood–Focus Effect (Focus − Mood Score [2–10])",
+  domain: [-5, 5]
+},
     color: { legend: true },
     marks: [
       Plot.dot(
