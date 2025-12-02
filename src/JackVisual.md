@@ -10,12 +10,18 @@ const raw = await FileAttachment("data/hr_focus_mood.csv").csv({typed: true});
 
 const moodOrder = ["Very Bad", "Bad", "Neutral", "Good", "Very Good"];
 
-const data = raw.map(d => ({
-  ...d,
-  moodScore: moodOrder.indexOf(d.Mood) + 1,
-  moodFocusEffect: d.Focus - (moodOrder.indexOf(d.Mood) + 1),
-  mainActivity: (d.Activity || "").split(",")[0].trim()
-}));
+const data = raw.map(d => {
+  const moodIndex = moodOrder.indexOf(d.Mood);   // 0–4
+  const moodScore10 = (moodIndex + 1) * 2;       // 2,4,6,8,10
+
+  return {
+    ...d,
+    moodScore: moodScore10,
+    moodFocusEffect: d.Focus - moodScore10,
+    mainActivity: (d.Activity || "").split(",")[0].trim()
+  };
+});
+
 
 ```
 ```js
@@ -96,10 +102,10 @@ function moodEffectChart(data, {width}) {
     marginBottom: 60,
     grid: true,
     x: { label: "Time of Day" },
-    y: {
-      label: "Mood–Focus Effect (Focus − Mood Score)",
-      domain: [-5, 5]
-    },
+y: {
+  label: "Mood–Focus Effect (Focus − Mood Score)",
+  domain: [-5, 5]
+},
     color: { legend: true },
     marks: [
       Plot.dot(
