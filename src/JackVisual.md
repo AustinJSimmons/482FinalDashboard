@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: Mood vs Focus Visualization
+title: Mood-Focus Effect Visualization
 toc: false
 ---
 
@@ -128,11 +128,7 @@ function moodEffectChart(filtered, {width, colorByPerson}) {
 
   <div class='card grid-colspan-2'>
     ${resize((width) =>
-      moodEffectChart(filteredData, {
-        width,
-        colorByPerson
-      })
-    )}
+      moodEffectChart(filteredData, {width,colorByPerson}))}
   </div>
 </div>
 
