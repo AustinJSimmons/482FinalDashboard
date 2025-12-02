@@ -18,8 +18,6 @@ display(
     x: { label: "Correlation (r)", domain: [0, 1], grid: true },
     y: { label: null },
     color: { scheme: "ylorrd", legend: true, label: "Strength" },
-    caption:
-      "This chart displays the Pearson correlation (r) between Mood and Focus, categorized by weather type. Higher values (near 1.00) indicate a strong link where focus mirrors mood; lower values (near 0.00) indicate that mood and focus are decoupled.",
     marks: [
       Plot.ruleY(weatherData, {
         x1: 0,
@@ -37,5 +35,8 @@ display(
       }),
     ],
   })
-);
-```
+    );
+    ```
+
+This chart displays the Pearson correlation (r) between Mood and Focus, categorized by weather type. Higher values (near 1.00) indicate a strong link where focus mirrors mood; lower values (near 0.00) indicate that mood and focus are decoupled.
+
