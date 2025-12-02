@@ -15,14 +15,21 @@ const metricInput = Inputs.radio(
   {label: "Compare Heart Rate with:", value: "Mood"}
 );
 
+const pointInput = Inputs.toggle(
+  {label: "Hide points", value: true}
+);
+
 const colorInput = Inputs.toggle(
   {label: "Color by Person", value: true}
 );
 
 const metricValue = Generators.input(metricInput);
+
 const colorValue = Generators.input(colorInput);
 
-function heartRateChart(data, {width, metric, colorByPerson}) {
+const pointValue = Generators.input(pointInput);
+
+function heartRateChart(data, {width, metric, colorByPerson, points}) {
     return Plot.plot({
         width,
         title: `Heart Rate vs. ${metric}`,
@@ -49,7 +56,7 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
                 : Plot.ruleY(data, Plot.groupZ({y: "mean"}, {y: "Heart Rate", stroke: "red", strokeOpacity: 0.5})),
             
             // The main data points
-            Plot.dot(data, {
+            points === true ? null : Plot.dot(data, {
             x: metric,
             y: "Heart Rate",
             fill: colorByPerson ? "Name" : "steelblue",
@@ -75,11 +82,12 @@ function heartRateChart(data, {width, metric, colorByPerson}) {
     <div class='card'>
             ${metricInput}
             ${colorInput}
+            ${pointInput}
     </div>
     <div class='grid grid-cols-2'>
         <div class='card grid-colspan-2'>
             ${resize((width) => heartRateChart(data, 
-            {width, metric: metricValue, colorByPerson: colorValue}))}
+            {width, metric: metricValue, colorByPerson: colorValue, points: pointValue}))}
         </div>
     </div>
 </div>
