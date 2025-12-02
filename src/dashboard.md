@@ -384,7 +384,7 @@ function moodEffectChart(filtered, {width, colorByPerson}) {
     x: { label: "Time of Day" },
     y: {
       label: "Mood–Focus Effect (Focus − Mood Score)",
-      domain: [-5, 5]
+      domain: [-5, 10]
     },
     color: { legend: true },
     marks: [
